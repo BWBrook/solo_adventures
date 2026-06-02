@@ -12,6 +12,9 @@ Tracked content lives in `converted/`.
 
 Source PDFs are kept locally in `original_pdf/`, which is ignored by Git.
 
+Use `how_to_play_with_s&s.md` as the Sinew & Steel coda for running these
+conversions with the Candlelight Dungeons skin.
+
 ## Converted Adventures
 
 - `converted/4e_solo_adventure.md` - Red Box solo adventure narrative cut.
