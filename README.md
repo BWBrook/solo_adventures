@@ -12,3 +12,7 @@ Tracked content lives in `converted/`.
 
 Source PDFs are kept locally in `original_pdf/`, which is ignored by Git.
 
+## Converted Adventures
+
+- `converted/4e_solo_adventure.md` - Red Box solo adventure narrative cut.
+- `converted/Ghost_Tower_of_the_Witchlight_Fens.md` - Ghost Tower sequel narrative cut.
