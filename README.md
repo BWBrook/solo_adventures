@@ -21,3 +21,4 @@ conversions with the Candlelight Dungeons skin.
 - `converted/Ghost_Tower_of_the_Witchlight_Fens.md` - Ghost Tower sequel narrative cut.
 - `converted/Keep_on_the_Shadowfell_H1.md` - full H1 adventure narrative and context cut.
 - `converted/DDEX12_Secrets_of_Sokol_Keep.md` - Sokol Keep narrative and S&S/Candlelight cut.
+- `converted/transmuters_last_touch.md` - Transmuter's Last Touch scanned-module narrative and S&S/Candlelight cut.
