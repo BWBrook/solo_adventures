@@ -218,6 +218,71 @@ The Regulars live and rest here. During the day most are on patrol; at night mos
 
 Lord Padraig, his wife, and their four sons live in an old imperial-style manor. Padraig will meet adventurers who seek him out, especially if they bring news of the kobolds.
 
+## Map as Node-Edge Graphs: Winterhaven and the Region
+
+These graphs abstract the regional and village maps into story navigation. Use
+them to orient the AI GM before deciding which local scene to frame next.
+
+### Regional Route Graph
+
+```mermaid
+graph LR
+  Road["King's Road"] --> Brigands["Act I: Kobold Brigands"]
+  Brigands --> Winterhaven["Winterhaven"]
+  Winterhaven --> Lair["Kobold Lair / Waterfall"]
+  Winterhaven --> Burial["Dragon Burial Site"]
+  Winterhaven --> Graveyard["Winterhaven Graveyard"]
+  Winterhaven --> Keep["Shadowfell Keep"]
+  Winterhaven --> Fallcrest["Road to Fallcrest"]
+```
+
+#### Edge List
+
+- King's Road -> Act I: Kobold Brigands.
+- Act I: Kobold Brigands -> Winterhaven.
+- Winterhaven -> Kobold Lair / Waterfall.
+- Winterhaven -> Dragon Burial Site.
+- Winterhaven -> Winterhaven Graveyard.
+- Winterhaven -> Shadowfell Keep.
+- Winterhaven -> Road to Fallcrest.
+
+### Winterhaven Village Graph
+
+```mermaid
+graph TD
+  Gate["1. Outer Gate and Walls"] --> Square["3. Market Square"]
+  Square --> Inn["2. Wrafton's Inn"]
+  Square --> Stables["4. Stables"]
+  Square --> Smithy["5. Smithy"]
+  Square --> Temple["10. Temple"]
+  Square --> Homes["9. Tenements and Homes"]
+  Square --> Inner["11. Inner Gate"]
+  Inn --> Valthrun["6. Valthrun's Tower"]
+  Square --> Shoppe["7. Bairwin's Grand Shoppe"]
+  Square --> Guild["8. Warrior Guild"]
+  Temple --> Grave["Graveyard"]
+  Inner --> Supplies["12. Siege Supplies"]
+  Inner --> Barracks["13. Barracks"]
+  Inner --> Manor["14. Manor House"]
+```
+
+#### Edge List
+
+- 1. Outer Gate and Walls -> 3. Market Square.
+- 3. Market Square -> 2. Wrafton's Inn.
+- 3. Market Square -> 4. Stables.
+- 3. Market Square -> 5. Smithy.
+- 3. Market Square -> 10. Temple.
+- 3. Market Square -> 9. Tenements and Homes.
+- 3. Market Square -> 11. Inner Gate.
+- 2. Wrafton's Inn -> 6. Valthrun's Tower.
+- 3. Market Square -> 7. Bairwin's Grand Shoppe.
+- 3. Market Square -> 8. Warrior Guild.
+- 10. Temple -> Graveyard.
+- 11. Inner Gate -> 12. Siege Supplies.
+- 11. Inner Gate -> 13. Barracks.
+- 11. Inner Gate -> 14. Manor House.
+
 ## Winterhaven Questions and Clues
 
 ### Douven Staul
@@ -318,6 +383,54 @@ Important elements:
 
 If Douven is freed, he returns to his wife and thanks the heroes. He offers his amulet as a reward after removing his wife's portrait from inside it. This is less about loot than affection: Douven values the portrait more than the magic.
 
+### Map as Node-Edge Graphs: Kobold Lair and Burial Site
+
+#### Kobold Lair Graph
+
+```mermaid
+graph LR
+  Trail["Southeast Trail"] --> Outside["A2. Lair Outside"]
+  Outside --> Trees["Small Glades and Trees"]
+  Outside --> Circle["Sacred Circle"]
+  Outside --> Waterfall["Waterfall Entrance"]
+  Waterfall --> Cave["A3. Lair Inside"]
+  Cave --> Irontooth["Irontooth's Command Space"]
+  Outside -. "warning runner" .-> Cave
+```
+
+##### Edge List
+
+- Southeast Trail -> A2. Lair Outside.
+- A2. Lair Outside -> Small Glades and Trees.
+- A2. Lair Outside -> Sacred Circle.
+- A2. Lair Outside -> Waterfall Entrance.
+- Waterfall Entrance -> A3. Lair Inside.
+- A3. Lair Inside -> Irontooth's Command Space.
+- A2. Lair Outside -. warning runner .-> A3. Lair Inside.
+
+#### Dragon Burial Site Graph
+
+```mermaid
+graph LR
+  Trail2["Southwest Trail"] --> Rim["Crater Rim"]
+  Rim --> Bones["Dragon Bones"]
+  Rim --> Agrid["Agrid's Dig Crew"]
+  Bones --> Douven["Douven Hidden Under Blanket"]
+  Bones --> Mirror["Nerathi Mirror"]
+  Douven --> Return["Return to Winterhaven"]
+  Mirror --> KeepClue["Shadowfell Keep Clue"]
+```
+
+##### Edge List
+
+- Southwest Trail -> Crater Rim.
+- Crater Rim -> Dragon Bones.
+- Crater Rim -> Agrid's Dig Crew.
+- Dragon Bones -> Douven Hidden Under Blanket.
+- Dragon Bones -> Nerathi Mirror.
+- Douven Hidden Under Blanket -> Return to Winterhaven.
+- Nerathi Mirror -> Shadowfell Keep Clue.
+
 ## Interlude II: Shadow of the Keep
 
 After the heroes collect clues and return to Winterhaven, the village has changed. Fields around the walls seem empty. Villagers hurry through the streets and glance over their shoulders. Fear has entered the air.
@@ -379,9 +492,79 @@ Use recurring sensory motifs:
 - Old stone that feels watched.
 - Silence outside the ruin and whispers below it.
 
+## Map as Node-Edge Graph: Shadowfell Keep Overview
+
+This graph is the adventure-scale dungeon map: surface ruin, first layer,
+second layer, and the final rift. The layer-specific graphs below expand the
+two dungeon floors.
+
+```mermaid
+graph TD
+  Ruins["Surface Ruins"] --> Stairs["Cleared Stair"]
+  Stairs --> L1["Dungeon Layer One"]
+  L1 --> Goblins["Goblin Encampment"]
+  L1 --> Tombs["The Tombs"]
+  L1 --> Caves["Natural Caves"]
+  L1 --> Down["Stairs to Dungeon Layer Two"]
+  Down --> L2["Dungeon Layer Two"]
+  L2 --> Hobgoblins["Hobgoblin Borough"]
+  L2 --> Hazards["Side Hazards"]
+  L2 --> Cathedral["Cathedral of Shadow"]
+  Cathedral --> Rift["Shadow Rift"]
+```
+
+### Edge List
+
+- Surface Ruins -> Cleared Stair.
+- Cleared Stair -> Dungeon Layer One.
+- Dungeon Layer One -> Goblin Encampment.
+- Dungeon Layer One -> The Tombs.
+- Dungeon Layer One -> Natural Caves.
+- Dungeon Layer One -> Stairs to Dungeon Layer Two.
+- Stairs to Dungeon Layer Two -> Dungeon Layer Two.
+- Dungeon Layer Two -> Hobgoblin Borough.
+- Dungeon Layer Two -> Side Hazards.
+- Dungeon Layer Two -> Cathedral of Shadow.
+- Cathedral of Shadow -> Shadow Rift.
+
 ## Shadowfell Keep: Dungeon Layer One
 
 The first dungeon layer contains three main zones: the goblin encampment, the tombs, and natural caves.
+
+### Map as Node-Edge Graph: Dungeon Layer One
+
+```mermaid
+graph LR
+  Surface["Surface Stairs"] --> A1["1. Goblin Guard Room"]
+  A1 --> A2["2. Torture Chamber"]
+  A1 --> A3["3. Excavation Site"]
+  A3 --> A4["4. Chieftain's Lair"]
+  A1 --> A5["5. Crypt of Shadows"]
+  A5 --> A6["6. Hidden Armory"]
+  A5 --> A7["7. Skeletal Legion"]
+  A7 --> A8["8. Sir Keegan's Tomb"]
+  A1 --> A9["9. Maze of Caves"]
+  A4 -. "Balgron escape" .-> A9
+  A9 --> A10["10. Kruthik Lair"]
+  A9 --> A11["11. Water Cave"]
+  A1 --> Down["Stairs to Layer Two / Area 12"]
+```
+
+#### Edge List
+
+- Surface Stairs -> 1. Goblin Guard Room.
+- 1. Goblin Guard Room -> 2. Torture Chamber.
+- 1. Goblin Guard Room -> 3. Excavation Site.
+- 3. Excavation Site -> 4. Chieftain's Lair.
+- 1. Goblin Guard Room -> 5. Crypt of Shadows.
+- 5. Crypt of Shadows -> 6. Hidden Armory.
+- 5. Crypt of Shadows -> 7. Skeletal Legion.
+- 7. Skeletal Legion -> 8. Sir Keegan's Tomb.
+- 1. Goblin Guard Room -> 9. Maze of Caves.
+- 4. Chieftain's Lair -. Balgron escape .-> 9. Maze of Caves.
+- 9. Maze of Caves -> 10. Kruthik Lair.
+- 9. Maze of Caves -> 11. Water Cave.
+- 1. Goblin Guard Room -> Stairs to Layer Two / Area 12.
 
 ### Faction: Balgron's Goblins
 
@@ -652,6 +835,27 @@ A path leads from the gate through trees to the cemetery. Iron bars enclose pack
 
 When the heroes reach the center, undead burst from the soil. Gravehound zombies and skeletons attack while Ninaran emerges from hiding and fires into the chaos.
 
+#### Map as Node-Edge Graph: Winterhaven Graveyard
+
+```mermaid
+graph LR
+  Gate["Winterhaven Gate"] --> Path["Tree-Lined Path"]
+  Path --> Fence["Iron Graveyard Fence"]
+  Fence --> Graves["Disturbed Graves"]
+  Graves --> Circle["Sickly Magic Circle"]
+  Circle --> Mausoleum["Largest Mausoleum"]
+  Graves --> Ninaran["Ninaran's Firing Position"]
+```
+
+##### Edge List
+
+- Winterhaven Gate -> Tree-Lined Path.
+- Tree-Lined Path -> Iron Graveyard Fence.
+- Iron Graveyard Fence -> Disturbed Graves.
+- Disturbed Graves -> Sickly Magic Circle.
+- Sickly Magic Circle -> Largest Mausoleum.
+- Disturbed Graves -> Ninaran's Firing Position.
+
 Ninaran's role:
 
 - She is Kalarel's spy and assassin.
@@ -681,6 +885,35 @@ If the heroes refuse to help:
 ## Shadowfell Keep: Dungeon Layer Two
 
 The second dungeon layer includes the hobgoblin borough, dangerous side chambers, the Cathedral of Shadow, and the Shadow Rift.
+
+### Map as Node-Edge Graph: Dungeon Layer Two
+
+```mermaid
+graph LR
+  Down["Stairs from Layer One"] --> A12["12. Hobgoblin Guard Room"]
+  A12 --> A13["13. Hobgoblin Barracks"]
+  A13 --> A14["14. Warchief's Council Room"]
+  A14 --> A15["15. Corridors of the Cube"]
+  A15 --> A16["16. Chamber of Statues"]
+  A16 --> A17["17. Ghoul Warren"]
+  A17 --> A18["18. Cathedral of Shadow"]
+  A18 --> A19["19. Shadow Rift"]
+  A12 -. "sealed side route" .-> A15
+  A17 -. "clay scout warning" .-> A19
+```
+
+#### Edge List
+
+- Stairs from Layer One -> 12. Hobgoblin Guard Room.
+- 12. Hobgoblin Guard Room -> 13. Hobgoblin Barracks.
+- 13. Hobgoblin Barracks -> 14. Warchief's Council Room.
+- 14. Warchief's Council Room -> 15. Corridors of the Cube.
+- 15. Corridors of the Cube -> 16. Chamber of Statues.
+- 16. Chamber of Statues -> 17. Ghoul Warren.
+- 17. Ghoul Warren -> 18. Cathedral of Shadow.
+- 18. Cathedral of Shadow -> 19. Shadow Rift.
+- 12. Hobgoblin Guard Room -. sealed side route .-> 15. Corridors of the Cube.
+- 17. Ghoul Warren -. clay scout warning .-> 19. Shadow Rift.
 
 ### Faction: The Hobgoblins
 

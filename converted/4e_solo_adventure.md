@@ -667,6 +667,40 @@ The outer caves show signs of goblin occupation: smoke, refuse, crude bedding, a
 
 Two main passages lead inward. One descends toward old ritual chambers. Another bends toward rougher living spaces and guard rooms. Either route can eventually reveal Malareth's laboratory.
 
+## Map as Node-Edge Graph: The Twisting Halls
+
+The original poster-map advice deliberately supports rearranging chambers, so
+this graph treats the dungeon as functional story flow rather than fixed
+geometry. It preserves the two-route entry, the public temple, the hidden cult
+thread, and the final laboratory.
+
+```mermaid
+graph LR
+  Road["Road Back / Cave Site"] --> Mouth["Cave Mouths"]
+  Mouth --> A1["Area 1: Purification"]
+  Mouth --> A3["Area 3: Vesting"]
+  A1 --> A2["Area 2: Worship"]
+  A2 --> A4["Area 4: The Trial"]
+  A4 --> A5["Area 5: Hidden Shrine"]
+  A3 --> A6["Area 6: Storage Area"]
+  A5 --> A7["Area 7: Wizard's Laboratory"]
+  A6 --> A7
+  A2 -. "old temple clues" .-> A5
+```
+
+### Edge List
+
+- Road Back / Cave Site -> Cave Mouths.
+- Cave Mouths -> Area 1: Purification.
+- Cave Mouths -> Area 3: Vesting.
+- Area 1: Purification -> Area 2: Worship.
+- Area 2: Worship -> Area 4: The Trial.
+- Area 4: The Trial -> Area 5: Hidden Shrine.
+- Area 3: Vesting -> Area 6: Storage Area.
+- Area 5: Hidden Shrine -> Area 7: Wizard's Laboratory.
+- Area 6: Storage Area -> Area 7: Wizard's Laboratory.
+- Area 2: Worship -. old temple clues .-> Area 5: Hidden Shrine.
+
 ## Keyed Locations
 
 ### Area 1: Purification

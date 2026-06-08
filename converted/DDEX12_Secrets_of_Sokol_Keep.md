@@ -401,6 +401,34 @@ is not primarily combat; it is missed clues, mistrust, theft, and time.
 - Practice dummies in the courtyard hint at Black Fist use.
 - Dusty unused wings let Harae create eerie but harmless signs.
 
+### Map as Node-Edge Graph: Thorn Island and Sokol Keep
+
+This graph abstracts the surface map into functional navigation. It is meant
+for play flow, not tactical scale.
+
+```mermaid
+graph TD
+  Dock["Boat Landing"] --> Yard["Thorn Island Yard"]
+  Yard --> Mansion["Servants' Mansion"]
+  Yard --> Lighthouse["Lighthouse and Beacon"]
+  Yard --> East["East Tower / Hidden Shrine"]
+  Yard --> West["West Tower / Vanishing Slab"]
+  Mansion --> Igan["Igan's Quarters"]
+  East --> Journal["Igan's Journal"]
+  West --> Temple["Jade Temple Below"]
+```
+
+#### Edge List
+
+- Boat Landing -> Thorn Island Yard.
+- Thorn Island Yard -> Servants' Mansion.
+- Thorn Island Yard -> Lighthouse and Beacon.
+- Thorn Island Yard -> East Tower / Hidden Shrine.
+- Thorn Island Yard -> West Tower / Vanishing Slab.
+- Servants' Mansion -> Igan's Quarters.
+- East Tower / Hidden Shrine -> Igan's Journal.
+- West Tower / Vanishing Slab -> Jade Temple Below.
+
 ## Keyed Locations in Sokol Keep
 
 ### Igan's Quarters
@@ -552,6 +580,31 @@ West Tower Slab
 
 There are loops, squeezes, stuck doors, and vertical hazards. Reveal only what
 the delver observes or confirms.
+
+### Map as Node-Edge Graph: Jade Temple
+
+```mermaid
+graph LR
+  Slab["West Tower Slab"] --> J1["1. Entrance"]
+  J1 --> J2["2. Crypt"]
+  J2 --> J3["3. Vestibule of Barnacles"]
+  J3 --> J4["4. Sinkhole"]
+  J4 --> J5["5. Cells"]
+  J4 --> J6["6. Jade Idol"]
+  J6 --> J7["7. Reliquary"]
+  J4 -. "high tunnel / squeeze" .-> J7
+```
+
+#### Edge List
+
+- West Tower Slab -> 1. Entrance.
+- 1. Entrance -> 2. Crypt.
+- 2. Crypt -> 3. Vestibule of Barnacles.
+- 3. Vestibule of Barnacles -> 4. Sinkhole.
+- 4. Sinkhole -> 5. Cells.
+- 4. Sinkhole -> 6. Jade Idol.
+- 6. Jade Idol -> 7. Reliquary.
+- 4. Sinkhole -. optional high tunnel / squeeze .-> 7. Reliquary.
 
 ## Jade Temple Areas
 

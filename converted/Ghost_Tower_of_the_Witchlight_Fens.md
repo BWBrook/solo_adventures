@@ -112,6 +112,43 @@ You bid Sareth farewell and turn back toward your camp. Before you take five ste
 
 ## Part 2: The Ghost Tower
 
+### Map as Node-Edge Graph: Witchlight Fens Approach
+
+This graph abstracts the road, woodland, fens, and tower exterior into the
+practical route an AI GM needs. It keeps the two ways of inheriting the quest:
+Sareth alive, or Sareth dead with her map.
+
+```mermaid
+graph LR
+  Camp["Lost Camp"] --> Cry["Cry in the Night"]
+  Cry --> Clearing["Moonlit Clearing"]
+  Clearing --> Sareth["Sareth Alive"]
+  Clearing --> Scroll["Dead Elf / Map Scroll"]
+  Sareth --> Quest["Sareth's Quest"]
+  Scroll --> Tower["Ghost Tower at Fens Edge"]
+  Quest --> Tower
+  Tower --> Door["Locked Tower Door"]
+  Tower --> Undead["Corpse and Green Bones"]
+  Undead --> Key["Skeleton Key"]
+  Door --> Entry["27. Antechamber"]
+  Key --> Entry
+```
+
+#### Edge List
+
+- Lost Camp -> Cry in the Night.
+- Cry in the Night -> Moonlit Clearing.
+- Moonlit Clearing -> Sareth Alive.
+- Moonlit Clearing -> Dead Elf / Map Scroll.
+- Sareth Alive -> Sareth's Quest.
+- Dead Elf / Map Scroll -> Ghost Tower at Fens Edge.
+- Sareth's Quest -> Ghost Tower at Fens Edge.
+- Ghost Tower at Fens Edge -> Locked Tower Door.
+- Ghost Tower at Fens Edge -> Corpse and Green Bones.
+- Corpse and Green Bones -> Skeleton Key.
+- Locked Tower Door -> 27. Antechamber.
+- Skeleton Key -> 27. Antechamber.
+
 ### 12
 
 You travel deeper into the wilderness. Trees knot together overhead, underbrush claws at your legs, and the ground grows wet underfoot. Gnats swarm in the late afternoon. Then, through foliage and mist, you see a gleaming white tower at the swamp's edge.
@@ -216,6 +253,51 @@ Among the bones of one skeleton hangs a key on a thin chain. The key fits the to
 Go to 27.
 
 ## Part 3: Inside the Ghost Tower
+
+### Map as Node-Edge Graph: Ghost Tower Interior
+
+The tower is a three-route trial leading from a central antechamber to Parald's
+hall. Each route tests a different kind of nerve: careful trap work, dangerous
+movement, or patience with magical distortion.
+
+```mermaid
+graph LR
+  Entry["27/28. Antechamber"] --> East["East Door"]
+  Entry --> North["North Door"]
+  Entry --> West["West Door"]
+  East --> T29["29. Narrow Hall"]
+  T29 --> T30["30. Statue Hall"]
+  T30 --> T43["43. Far Door"]
+  T43 --> T94["94. Hall of the Blackguard"]
+  North --> T44["44. Pit Chamber"]
+  T44 --> T68["68. Far Ledge"]
+  T68 --> T94
+  West --> T69["69. Spiral Stair"]
+  T69 --> T71["71. Looping Stair"]
+  T71 --> T90["90. Ghostly Door"]
+  T90 --> T94
+  T43 -. "retreat" .-> T93["93. Return to Antechamber"]
+  T68 -. "retreat" .-> T93
+  T90 -. "retreat" .-> T93
+  T93 --> Entry
+  T30 -. "trap failure" .-> T92["92. Defeat / Death Frame"]
+  T44 -. "fall or poison" .-> T92
+  T71 -. "magical backlash" .-> T92
+  T94 --> T95["95. Sword Recovered"]
+```
+
+#### Edge List
+
+- 27/28. Antechamber -> East Door -> 29. Narrow Hall -> 30. Statue Hall -> 43. Far Door -> 94. Hall of the Blackguard.
+- 27/28. Antechamber -> North Door -> 44. Pit Chamber -> 68. Far Ledge -> 94. Hall of the Blackguard.
+- 27/28. Antechamber -> West Door -> 69. Spiral Stair -> 71. Looping Stair -> 90. Ghostly Door -> 94. Hall of the Blackguard.
+- 43. Far Door -. retreat .-> 93. Return to Antechamber -> 27/28. Antechamber.
+- 68. Far Ledge -. retreat .-> 93. Return to Antechamber -> 27/28. Antechamber.
+- 90. Ghostly Door -. retreat .-> 93. Return to Antechamber -> 27/28. Antechamber.
+- 30. Statue Hall -. trap failure .-> 92. Defeat / Death Frame.
+- 44. Pit Chamber -. fall or poison .-> 92. Defeat / Death Frame.
+- 71. Looping Stair -. magical backlash .-> 92. Defeat / Death Frame.
+- 94. Hall of the Blackguard -> 95. Sword Recovered.
 
 ### 27
 
