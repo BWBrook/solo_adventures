@@ -719,6 +719,43 @@ ordinary flux zones.
   Verdivis lore, the music box, the hourglass, stolen caravan goods, and any
   proof that Tazex's raids caused harm.
 
+### Second Alignment Pass
+
+- Lesser kobolds begin as **Peasant 8** or **Soldier 10** with Stamina 3-4,
+  edge 0 or +1, and soak 0. A flux-zone advantage may temporarily make one
+  action feel **Elite 12**, but it should not permanently upgrade the whole
+  dungeon population.
+- Elite kobolds, chosen guards, and especially dangerous ambushers can use
+  **Elite 12** for their best action, usually with Stamina 5, edge +1, and soak
+  1 if armored or altered. Their special hook should come from the local flux
+  zone, not from imported powers.
+- Tazex is a **Nemesis 16 boss**: Stamina about 11, edge +2 with his mutated
+  multi-limbed assault, soak 1 or 2 from warped hide, and a second-phase feel
+  when wounded. His weakness is arrogance, overreliance on the Crucible, and
+  political isolation from Idruma and the punished kobolds.
+- Idruma is **Elite 12** for occult interpretation, negotiation, and alchemical
+  cunning, but she does not need combat stats unless betrayed or cornered. Her
+  real function is to make the kobold faction morally unstable.
+- Treat each flux zone as a room-scale spell effect. Voluntary use can grant a
+  short fictional advantage, temporary soak, movement leverage, stealth cover,
+  or an opening in combat. Repeated or reckless use should mark Fatigue or tick
+  **Flux Contamination**.
+- If a flux effect imitates a spell, classify it loosely: minor body changes
+  are **Cantrip**-scale, combat-shaping changes are **Spell**-scale, and
+  permanent Crucible alteration is **Arcanum**-scale with backlash and crisis
+  risk. The delver is not "casting"; the dungeon is.
+- The chasm, bridge, corrosive gas, poison, trapped stairs, and slick/slimy
+  chambers are Delvekit hazards. Telegraph them, let tools matter, and make
+  failure cost Stamina, gear, position, or Fatigue. Use **Fatal** only for a
+  clearly warned fall or suffocation with an explicit counter.
+- The stoneglass mirror is a map-facing alarm tool. If Tazex uses it, advance
+  **Tazex Alerted**, relocate guards, bar a route, or set a false invitation.
+  Do not turn it into omniscience.
+- The Crucible is boss terrain. During the finale, it can offer Tazex
+  advantage, threaten a forced transformation, or tempt the delver with power.
+  Countermeasures include Idruma's knowledge, Verdivis clues, breaking ritual
+  focus objects, or drawing Tazex away from the dais.
+
 ## Scan and OCR Notes
 
 This cleaned file was produced from a comparison of the available scan

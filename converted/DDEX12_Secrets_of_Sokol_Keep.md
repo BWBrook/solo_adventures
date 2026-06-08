@@ -1001,3 +1001,39 @@ from the temple.
   evidence, and repeated rumors should all keep the investigation moving.
 - The final question is not "did the party win the fight?" It is "what form of
   justice did they choose, and did Harae accept it?"
+
+### Second Alignment Pass
+
+- Keep Act I mostly roll-light. The tavern, docks, and Black Fist permissions
+  are about intent, leverage, and consequences. Roll only when someone risks
+  public shame, violence, legal trouble, or loss of access.
+- Harae should usually have no stat block. She is a bound witness and pressure
+  source. If resisted directly, treat her manifestation as a **Nemesis 16**
+  spiritual force that cannot be solved by damage; the counter is justice,
+  respect, and cleansing the murder.
+- Ordinary Black Fist guards are **Soldier 10** with Stamina 4, edge +1, soak
+  1 or 2. Exhausted guards in the reliquary may drop to effective **Peasant 8**
+  for morale, bargaining, and endurance even if still dangerous with blades.
+- Grim is an **Elite 12 boss** only if violence becomes unavoidable: Stamina
+  about 9, edge +1 or +2, soak 2, and a cowardice hook. He should threaten,
+  bargain, blame Igan, and use his men before making a heroic last stand.
+- The animated armor are **Elite 12 guardian shells**: Stamina 5, edge +1,
+  soak 2. Their hook is slow inevitability; clever wedging, saltwater, ropes,
+  or retreat can solve them without a slugging match.
+- Skeletons are **Peasant 8** wardens or a group hazard. Ghouls are **Soldier
+  10** ambushers; their old paralysis becomes loss of position,
+  helplessness-for-a-beat, or +1 Fatigue on a failed defense.
+- Igan's corpse is not "a monster encounter." Treat it as a tragic boss-sign
+  inside the idol chamber: defeating it matters less than recognizing the
+  murder, removing the body from the altar, and refusing the idol's logic.
+- The sinkhole, cold water, stuck doors, and high tunnel are Delvekit hazards.
+  Default costs are Stamina, gear, lost light, separation, or Fatigue. Use
+  **Fatal** only for clear drowning or a catastrophic fall with an explicit
+  counter such as rope, anchored help, or retreat.
+- The jade idol is a boss terrain feature rather than a creature. Let cleansing
+  or suppressing it be a parallel FTH/LOR action while others hold off the
+  dead. On failure, advance Temple Wakefulness or mark Fatigue rather than
+  merely dealing damage.
+- If the party wants to loot the idol, make that a moral and logistical
+  problem: weight, noise, Harae's rejection, Dock Unrest, Black Fist greed, and
+  future cult attention all matter more than coin value.

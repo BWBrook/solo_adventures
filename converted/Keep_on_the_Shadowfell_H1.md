@@ -1282,3 +1282,49 @@ Leader of the Bloodreavers, a hobgoblin slaver group. His letter offers Kalarel 
 - Use Sir Keegan and the children's relics as moral anchors.
 - Make the final rift closure a ritual, relational, or symbolic act as much as a physical confrontation.
 - Keep treasures only when they carry story: Aecris, the Nerathi mirror, Bahamut icons, Keegan family relics, the ritual book, and Bloodreaver letters matter more than coin.
+
+### Second Alignment Pass
+
+- Run Winterhaven and the road scenes as scene-first Candlelight. Use Delvekit
+  procedure only for the kobold lair, Shadowfell Keep, and the graveyard if
+  map state, time, and backtracking matter.
+- Use **medium Delvekit** as the default for Shadowfell Keep. Use **soft** for
+  a heroic continuity campaign where survival and revelation matter more than
+  attrition. Use **hard** only if the player explicitly wants the keep to be a
+  meat grinder.
+- Lesser kobolds and goblins are **Peasant 8** or **Soldier 10** with 3-4
+  Stamina, soak 0 or 1, and edge 0 or +1. They become dangerous through alarm,
+  terrain, numbers, traps, and faction reaction.
+- Irontooth is an **Elite 12 boss**: Stamina about 9, edge +2 axe, soak 2, and
+  a zeal hook. He should push morale, invoke Kalarel, and force choices about
+  warning runners, captives, and stolen goods.
+- Agrid is **Soldier 10** as a deceiver-skulk, not a boss. His main threat is
+  hostage leverage over Douven and the Nerathi mirror clue.
+- Balgron is **Soldier 10** with low courage, not a combat centerpiece. His
+  value is the pass phrase, routes, faction truth, and betrayal risk.
+- Sir Keegan is a **Nemesis 16 social and spiritual obstacle**. Do not treat him
+  as mandatory combat. His "defeat" is an oath scene: FTH, honesty, Bahamut
+  signs, children's relics, and a promise to close the rift should matter more
+  than damage.
+- Ordinary skeletons and zombies are **Peasant 8** or group hazards. Ghouls are
+  **Soldier 10** predators with paralysis reimagined as a failed STR/DEX/FTH
+  defense that costs position, Stamina, or temporary helplessness.
+- Hobgoblin soldiers are **Soldier 10**; warcasters, commanders, and the
+  Warchief are **Elite 12**. The Warchief can be an Elite boss with Stamina
+  about 9 if he becomes the focus of a scene.
+- Kalarel is a **Nemesis 16 ritual boss**: Stamina about 11, soak 2, edge +1 or
+  +2, with LOR/FTH-like ritual power. His bodyguards and the room should be
+  more important than imported spell lists.
+- The Thing in the Portal is not a monster to stat. Treat reaching claws as
+  **Fatal (counter: keeping distance, breaking the ritual anchor, or being
+  hauled clear immediately)**. Telegraph the counter before it matters.
+- The gelatinous cube, blue slime, death traps, wells, and statue chamber are
+  hazard rooms. They should cost Stamina, gear, position, map access, or
+  Fatigue before they kill, except in hard mode where clear warnings can lead
+  to Fatal consequences.
+- Treat Ninaran's graveyard trap as a faction reaction, not a random encounter:
+  it is Kalarel spending village fear, dead bodies, and spy work to change the
+  map around the heroes.
+- Recommended clocks: **Kobold Alarm**, **Winterhaven Fear**, **Keep Alert**,
+  **Kalarel's Ritual**, and **Rift Hunger**. Show them through horns, missing
+  villagers, moved bodies, sealed doors, fresher blood, and colder shadows.

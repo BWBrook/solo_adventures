@@ -774,3 +774,42 @@ In a black iron box near the western altar, you find treasure and a useful magic
 You leave the Ghost Tower a hero of this small, dangerous detour. If Sareth survived, she guides you back to Fallcrest and keeps her promise to help with your unfinished mission. If she did not, you still eventually reach Fallcrest and find allies for the larger task: returning to the goblin caves, recovering Traevus's stolen case, and confronting the secrets around it.
 
 The tower leaves one more hook behind. The strange stair and hidden door suggest there is more below the Ghost Tower than Parald's hall. Deeper levels may reveal why the ghost towers exist, what lies at the bottom of the spiraling stairs, and how Traevus's mysterious case fits into a larger pattern.
+
+## Sinew & Steel Conversion Notes
+
+- Run this as a **soft Candlelight** side trek if it is a lonely bridge between
+  larger adventures. Run the tower interior as **medium Delvekit** if the
+  player enjoys serious old-school risk.
+- Use Sareth as a living stake, not a sidekick stat block. If dice matter, she
+  is **Elite 12** with Stamina 5, edge +1 blades, soak 1, and a strong FTH-like
+  resolve when her mother's sword is involved. Her fear is failing the dead.
+- The kobold bandits in the opening are **Peasant 8** raiders with one
+  **Soldier 10** leader. Their reaction is cowardly opportunism: press an
+  advantage, flee when bloodied, boast about Szartharrax only when they feel
+  safe.
+- The exterior undead are warnings as much as enemies. Treat the corpse as
+  **Soldier 10** with Stamina 4 and a grab hook; skeletons are **Peasant 8**
+  or a group hazard unless the player chooses to stand and fight.
+- The tower's three routes each test a different S&S mode:
+  - East/statue hall: DEX and patient trap work. Clues are loose tile gaps,
+    open statue mouths, dart holes, and dustless seams.
+  - North/pit chamber: STR or DEX for movement, FOR for last-ditch luck, and
+    Fatigue for poison vapor, fear, or slow crawling.
+  - West/looping stair: LOR for the glyph, FTH for keeping nerve, Fatigue for
+    repeated attempts or magical backlash.
+- Treat entries 91 and 92 as tone switches. In soft mode, 92 can mean collapse,
+  capture, fever-dream, or forced retreat with a scar. In medium mode, the
+  first hit to 0 Stamina can survive with a hard cost. In hard mode, 92 is
+  death unless the fiction clearly prevents the blow.
+- Parald is a **Nemesis 16 undead boss**: Stamina about 11, edge +2 flaming
+  longsword, soak 3 black plate. His hook is oath-bound fury: he grows more
+  dangerous when mocked, robbed, or forced away from the stolen sword.
+- Parald should be immune to casual **Fatal** backstab effects until the player
+  creates a real countermeasure: holy water in the basins, Sareth invoking her
+  mother, breaking the tomb rite, or separating him from the sword's flame.
+- The tomb rats are not a second encounter. Use them as position pressure,
+  distraction, or a Fatigue trigger if the player lets the fight sprawl.
+- Useful clocks: **Sareth's Wounds**, **Tower Malice**, and **Light**. Sareth's
+  clock moves when she is ignored or exposed; tower malice moves on failed
+  magical tampering and desecration; light moves with delay, crawling, and
+  repeated returns to the antechamber.

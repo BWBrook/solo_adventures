@@ -861,3 +861,46 @@ Whether Traevus is telling the truth is a powerful next hook:
 - Malareth may have been only one of several people hunting the skull.
 
 The adventure ends with the immediate threat broken, but the skull remains. It is an object with history, enemies, and a future.
+
+## Sinew & Steel Conversion Notes
+
+- Run the solo numbered section as **soft Candlelight** if the delver is alone
+  and inexperienced. Run the Twisting Halls as **medium Delvekit** once allies,
+  better preparation, or a more capable hero enters the picture.
+- Treat the early goblin attack as a teaching scene. Most lesser goblins are
+  **Peasant 8** or **Soldier 10**, with 3-4 Stamina, soak 0, and edge 0 or +1.
+  Their danger comes from ambush, theft, numbers, and panic, not durability.
+- Sareth, if present, is an **Elite 12** ally for swordplay and nerve, but she
+  should not solve the adventure for the player. Use her to reveal stakes,
+  offer one timely assist, or absorb one consequence that would otherwise end
+  the scene too early.
+- Farallax is best treated as a **Monster 14, large** presence: Stamina about
+  8, edge +2 bite or claw, soak 1 scales, and a vanity hook. A clever bargain
+  should be safer and more interesting than a frontal fight.
+- Kurrash is an **Elite 12 boss** rather than a generic brute: Stamina about 9,
+  edge +2 if using his trophy axe, soak 1 hide or scraps. His special behavior
+  is retreat through supplies, fire, and goblin bodies rather than a new power.
+- Malareth is a **Nemesis 16 boss** whose best score is LOR-like necromancy:
+  Stamina about 11 if the finale becomes a fight, soak 0 or 1, and spell
+  effects framed as Candlelight **Spell** or **Greater Spell** costs. He should
+  spend undead servants, terrain, and the skull's ritual leverage before he
+  trades blows.
+- The ogre corpse is a **Monster 14, large undead** with Stamina about 8, edge
+  +2, soak 1, and one job: block the approach to Malareth or drag someone into
+  the laboratory mess. Skeletons are lesser hazards or **Peasant 8** wardens
+  unless the scene specifically turns on them.
+- The carpet pit in Area 3 should be clueable: too-clean fabric, wrong dust,
+  rat-chewed edge, hollow tap. If mishandled, cost Stamina, gear, position, or
+  separation; use **Fatal** only if the player ignored clear warning and chose
+  a reckless method.
+- The chessboard trial in Area 4 is a puzzle-hazard. Let correct reasoning
+  work without rolling. Risky shortcuts can call for DEX, LOR, or FTH, with
+  failure marking Fatigue, awakening statues, or shunting the delver back to
+  the entrance.
+- The Horned King shrine should not become a generic evil aura. Treat it as a
+  corrupting pressure node: bargains, blood, greed, and moonstone theft can
+  mark Fatigue or advance a **Temple Corruption** clock.
+- Useful clocks: **Goblin Alarm**, **Temple Corruption**, and **Malareth's
+  Work**. Noise and delay move the alarm; theft and desecration move
+  corruption; long rests, retreats, or failed pursuit move Malareth closer to
+  finishing his study of the skull.

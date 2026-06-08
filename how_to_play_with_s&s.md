@@ -135,6 +135,100 @@ Peasant 8, Soldier 10, Elite 12, Monster 14, Nemesis 16. Most converted
 creatures only need one tier number, a Stamina value, edge, soak, and one vivid
 behavior. Many need no numbers at all until someone risks a roll against them.
 
+## Threat Tiers for Converted Modules
+
+Do not rebuild a D&D bestiary. Make a creature card only when a roll, fight,
+chase, parley, or serious resistance is likely. Use the S&S tier method:
+
+| Source-fiction role | S&S treatment |
+|---|---|
+| Frightened townsfolk, prisoners, exhausted hirelings | **Peasant 8**, Stamina 3, edge 0, soak 0. |
+| Ordinary guards, goblins, kobolds, skeletons, bandits | **Soldier 10**, Stamina 4, edge 0 or +1, soak 0-1. |
+| Captains, priests, dangerous scouts, named lieutenants | **Elite 12**, Stamina 5, edge +1, soak 1-2. |
+| Large beasts, animated guardians, ogre corpses, young dragons | **Monster 14**, Stamina 6, usually +2 if large, edge +2, soak 1-2. |
+| Adventure villains, undead blackguards, ritual masters | **Nemesis 16**, Stamina 7, usually +4 if a true boss, edge +1 or +2, soak by fiction. |
+
+For a boss, add +4 Stamina or give a second phase at 0 Stamina. Do not add a
+page of powers. Give the boss leverage instead: terrain, bodyguards, a ritual,
+a hostage, a clock, a weakness, a bargain, or a reason not to fight to the
+death.
+
+Use strong/weak pairs only when they help:
+
+- A kobold scout may be DEX-like 10 and STR-like 6.
+- A brute may be STR-like 12 and LOR-like 8.
+- A necromancer may be LOR-like 16 and STR-like 12 or lower.
+- A ghostly judge may be FTH-like 16 and immune to ordinary damage until its
+  unfinished vow is addressed.
+
+A creature's tier is not its personality. Every important NPC still needs:
+
+- **Want:** what they seek now.
+- **Fear:** what makes them hesitate.
+- **Trade:** what they might accept.
+- **Strike:** what makes them turn violent or flee.
+- **Hook:** one behavior that makes them distinct in play.
+
+## Reimagining D&D Hazards
+
+Most source traps and hazards become one of five S&S objects:
+
+| Source hazard | S&S analogue |
+|---|---|
+| Pit, blade, dart, collapsing stair | Clueable Delvekit trap: cost Stamina, gear, position, Fatigue, or separation. |
+| Poison, disease, necrotic aura | Fatigue pressure, Disadvantage, Stamina loss, or a visible clock. |
+| Save-or-lose effect | Temporary helplessness, forced retreat, lost item, split position, or hard bargain. |
+| Death magic, portal claws, lethal fall | **Fatal (counter: explicit tool, action, distance, or resource)**. |
+| Complex room defense | Puzzle-hazard: let reasoning work; risky shortcuts get one test at most. |
+
+Use **Fatal** sparingly and fairly. Declare the counter before the blow lands:
+rope and anchor for a fall, sealed door for decompression, holy rite for a
+spirit's judgment, distance from the portal, mirror against a gaze, or staying
+awake against an assassin. If the counter is not visible, the hazard is not
+ready to be Fatal.
+
+Magical rooms in old modules are often better as terrain than spells. If a room
+changes bodies, loops stairs, animates bones, or strengthens undead, treat the
+site as doing the magic. The delver interacts with it through observation,
+ritual, tools, and cost:
+
+- **Cantrip-scale:** odd but small, no cost unless rushed.
+- **Spell-scale:** useful or dangerous, often costs 1 Fortune or +1 Fatigue if
+  deliberately invoked.
+- **Greater Spell-scale:** scene-changing, costs Fortune and Fatigue, or +2
+  Fatigue on failure.
+- **Arcanum-scale:** permanent, reality-bending, or rift-level; no Fortune
+  nudge, backlash on failure, and Fatigue crisis risk.
+
+## Reactions and Clocks
+
+Converted modules should feel alive without importing encounter schedules.
+Use clocks and reactions as map-facing consequences.
+
+Good clocks for D&D conversions:
+
+- **Alarm:** guards organize, routes close, runners flee, patrols converge.
+- **Ritual:** cult magic advances, sacrifices move, portals thin.
+- **Faction nerve:** a villain lies worse, bargains sooner, flees, or turns
+  violent.
+- **Village mood:** trust, fear, blame, panic, or hope changes access.
+- **Site wakefulness:** tombs stir, idols glow, water rises, ghosts notice.
+- **Contamination:** repeated magic use leaves marks, dreams, mutations, or
+  temptation.
+
+A clock tick should change the fiction. Prefer:
+
+- move a guard
+- bar a door
+- relocate a hostage
+- expose a new sign
+- offer a bargain
+- drain light or supplies
+- make a safe route unsafe
+- make a dangerous route tempting
+
+Do not create reputation or reaction subgames. One concrete change is enough.
+
 ## Old-School Priorities in Candlelight
 
 Candlelight Dungeons wants an old-school feel without importing old rules
