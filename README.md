@@ -1,5 +1,7 @@
 # Solo Adventures
 
+> **Status:** developed in the open as a working record. This is work in progress: contents may change, and nothing here is peer-reviewed unless stated.
+
 Narrative-only solo adventure conversions for use as inspiration seeds in Sinew & Steel.
 
 The current workflow is intentionally simple:
@@ -22,3 +24,7 @@ conversions with the Candlelight Dungeons skin.
 - `converted/Keep_on_the_Shadowfell_H1.md` - full H1 adventure narrative and context cut.
 - `converted/DDEX12_Secrets_of_Sokol_Keep.md` - Sokol Keep narrative and S&S/Candlelight cut.
 - `converted/transmuters_last_touch.md` - Transmuter's Last Touch scanned-module narrative and S&S/Candlelight cut.
+
+## Licence
+
+Code is released under the [MIT Licence](LICENSE). Text, figures and data created for this project are released under [CC BY-SA 4.0](LICENSE-CONTENT). Third-party material keeps its own terms where stated.
