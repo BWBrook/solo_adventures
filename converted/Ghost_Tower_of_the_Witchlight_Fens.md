@@ -775,7 +775,7 @@ You leave the Ghost Tower a hero of this small, dangerous detour. If Sareth surv
 
 The tower leaves one more hook behind. The strange stair and hidden door suggest there is more below the Ghost Tower than Parald's hall. Deeper levels may reveal why the ghost towers exist, what lies at the bottom of the spiraling stairs, and how Traevus's mysterious case fits into a larger pattern.
 
-## Sinew & Steel Conversion Notes
+## Hazardry Conversion Notes
 
 - Run this as a **soft Candlelight** side trek if it is a lonely bridge between
   larger adventures. Run the tower interior as **medium Delvekit** if the
@@ -790,7 +790,7 @@ The tower leaves one more hook behind. The strange stair and hidden door suggest
 - The exterior undead are warnings as much as enemies. Treat the corpse as
   **Soldier 10** with Stamina 4 and a grab hook; skeletons are **Peasant 8**
   or a group hazard unless the player chooses to stand and fight.
-- The tower's three routes each test a different S&S mode:
+- The tower's three routes each test a different Hazardry mode:
   - East/statue hall: DEX and patient trap work. Clues are loose tile gaps,
     open statue mouths, dart holes, and dustless seams.
   - North/pit chamber: STR or DEX for movement, FOR for last-ditch luck, and

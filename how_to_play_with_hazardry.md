@@ -1,13 +1,13 @@
-# How to Play These Conversions with Sinew & Steel
+# How to Play These Conversions with Hazardry
 
 This coda is for an AI Custodian running the converted adventures in this
-archive with Sinew & Steel, especially the Candlelight Dungeons skin. Treat the
+archive with Hazardry, especially the Candlelight Dungeons skin. Treat the
 converted Markdown files as narrative modules: they give you places, people,
 choices, clues, factions, dangers, and branching structure. They do not bring
 their original D&D rules with them.
 
 The aim is not to reproduce a 4e encounter in another engine. The aim is to
-use the adventure fiction as a torchlit seed for S&S play: concrete scenes,
+use the adventure fiction as a torchlit seed for Hazardry play: concrete scenes,
 real choices, dangerous thresholds, talkative monsters, ugly bargains, and
 consequences that stay on the page.
 
@@ -15,7 +15,7 @@ consequences that stay on the page.
 
 When preparing a session, read or load these in order:
 
-1. The Sinew & Steel quickstart or assembled agent prompt.
+1. The Hazardry quickstart or assembled agent prompt.
 2. `skins/candlelight_dungeons.md`.
 3. `skins/candlelight_delvekit.md` and the Delvekit quick reference if the
    dungeon map, route choices, keys, revisits, light, and time pressure matter.
@@ -23,7 +23,7 @@ When preparing a session, read or load these in order:
 5. Any campaign state, current character sheet, trackers, and prior session
    memory.
 
-For agent-harness play from the S&S repo, Candlelight prompt builds already
+For agent-harness play from the Hazardry repo, Candlelight prompt builds already
 pull in the Delvekit sidecar. A typical setup might use `candlelight_dungeons`
 as the skin and treat the converted adventure as hidden scenario material:
 
@@ -59,13 +59,13 @@ Discard these things even if they linger in a source text:
 - Treasure parcels and magic item math as balance instruments.
 - Any idea that combat must happen because the original module expected it.
 
-If a branch says "if you succeed", S&S decides the success. If a room once had
+If a branch says "if you succeed", Hazardry decides the success. If a room once had
 a balanced encounter, Candlelight asks what the room wants, what the monsters
 want, what the player can learn, and what danger is visible before it bites.
 
-## Core S&S Discipline
+## Core Hazardry Discipline
 
-Use the S&S loop every beat:
+Use the Hazardry loop every beat:
 
 1. Frame the fiction with concrete, sensory details.
 2. Ask for intent and method: "What do you do, and how?"
@@ -107,7 +107,7 @@ Use entry numbers as stable handles:
 
 The player can always choose an action that is not listed. When that happens:
 
-1. Resolve the action using S&S.
+1. Resolve the action using Hazardry.
 2. Jump to the closest matching entry if one exists.
 3. If no entry fits, improvise a short bridge scene.
 4. Return to the numbered structure when the next obvious branch appears.
@@ -115,7 +115,7 @@ The player can always choose an action that is not listed. When that happens:
 Never force a listed option just because the conversion lists it. The entries
 are a navigation aid, not a prison.
 
-## Turning D&D Prompts into S&S Rulings
+## Turning D&D Prompts into Hazardry Rulings
 
 Use these translations at the table:
 
@@ -138,9 +138,9 @@ behavior. Many need no numbers at all until someone risks a roll against them.
 ## Threat Tiers for Converted Modules
 
 Do not rebuild a D&D bestiary. Make a creature card only when a roll, fight,
-chase, parley, or serious resistance is likely. Use the S&S tier method:
+chase, parley, or serious resistance is likely. Use the Hazardry tier method:
 
-| Source-fiction role | S&S treatment |
+| Source-fiction role | Hazardry treatment |
 |---|---|
 | Frightened townsfolk, prisoners, exhausted hirelings | **Peasant 8**, Stamina 3, edge 0, soak 0. |
 | Ordinary guards, goblins, kobolds, skeletons, bandits | **Soldier 10**, Stamina 4, edge 0 or +1, soak 0-1. |
@@ -171,9 +171,9 @@ A creature's tier is not its personality. Every important NPC still needs:
 
 ## Reimagining D&D Hazards
 
-Most source traps and hazards become one of five S&S objects:
+Most source traps and hazards become one of five Hazardry objects:
 
-| Source hazard | S&S analogue |
+| Source hazard | Hazardry analogue |
 |---|---|
 | Pit, blade, dart, collapsing stair | Clueable Delvekit trap: cost Stamina, gear, position, Fatigue, or separation. |
 | Poison, disease, necrotic aura | Fatigue pressure, Disadvantage, Stamina loss, or a visible clock. |
@@ -314,7 +314,7 @@ mechanics.
 
 ## Handling Combat Without Rebuilding 4e
 
-When combat happens, keep it S&S:
+When combat happens, keep it Hazardry:
 
 1. Say what each foe is trying to accomplish.
 2. Use opposed tests only where active resistance matters.
@@ -425,7 +425,7 @@ What can be learned:
 What can be gained:
 What can go wrong:
 Visible warnings:
-Likely S&S test if risk matters:
+Likely Hazardry test if risk matters:
 No-roll success if:
 Costly success if:
 Failure consequence:
@@ -484,7 +484,7 @@ summary. Even then, redact secrets.
 ## Anti-Patterns to Avoid
 
 - Do not ask for a roll before understanding the player's method.
-- Do not say "make a DC 15 check". Translate to S&S stakes and attributes.
+- Do not say "make a DC 15 check". Translate to Hazardry stakes and attributes.
 - Do not run every room as a fight.
 - Do not make monsters suicidal unless the fiction demands it.
 - Do not reveal hidden notes, true maps, or secret clocks in public prose.
@@ -493,14 +493,14 @@ summary. Even then, redact secrets.
   and real.
 - Do not bury the player in options. Offer a few sharp choices and keep
   freeform action open.
-- Do not use the conversion's old mechanics to overrule S&S.
+- Do not use the conversion's old mechanics to overrule Hazardry.
 
 ## Final Custodian Reminder
 
 Play the module's story, not its stat blocks.
 
 Let the converted text give you the bones: roads, towers, keeps, maps, cults,
-goblins, relics, rumors, and doors warm to the touch. Let Sinew & Steel provide
+goblins, relics, rumors, and doors warm to the touch. Let Hazardry provide
 the muscle: intent, stakes, Fortune, Fatigue, Stamina, clocks, rulings, and
 consequences. Let Candlelight provide the skin: torch smoke, wary delvers,
 danger that can be read before it kills, and the old pleasure of choosing the

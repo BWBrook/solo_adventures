@@ -2,7 +2,7 @@
 
 This conversion preserves the adventure premise, regional context, named characters, faction motives, scene flow, location keys, clues, secrets, and sequel hooks. It removes the 4e rules layer: creature mechanics, reward math, tactical map instructions, grid procedures, difficulty numbers, power text, premade character material, quick-start rules, and image references.
 
-Use this as a narrative seed for Sinew & Steel or any other system. Where the original relied on checks, levels, or combat mechanics, this version describes intent, consequence, clue flow, and story pressure instead.
+Use this as a narrative seed for Hazardry or any other system. Where the original relied on checks, levels, or combat mechanics, this version describes intent, consequence, clue flow, and story pressure instead.
 
 ## Adventure at a Glance
 
@@ -73,7 +73,7 @@ This hook starts as archaeology and becomes horror once the party learns what th
 
 ### Continuity Hook
 
-For a Sinew & Steel continuity run, the heroes may already be following threads from Traevus's stolen case, Malareth's necromancy, the Ghost Tower, or a broader pattern of relics tied to the Shadowfell. In that frame, Winterhaven is another point where old imperial seals, necromantic ambition, and demonic influence intersect.
+For a Hazardry continuity run, the heroes may already be following threads from Traevus's stolen case, Malareth's necromancy, the Ghost Tower, or a broader pattern of relics tied to the Shadowfell. In that frame, Winterhaven is another point where old imperial seals, necromantic ambition, and demonic influence intersect.
 
 ## Act I: The King's Road
 
@@ -757,7 +757,7 @@ Keegan's charge:
 
 Story reward:
 
-- Aecris becomes a major relic. In Sinew & Steel terms, it can be an oath-bound blade tied to imperial duty, remorse, and protection against the undead.
+- Aecris becomes a major relic. In Hazardry terms, it can be an oath-bound blade tied to imperial duty, remorse, and protection against the undead.
 
 If the heroes fail to persuade him or treat him as an enemy, Keegan attacks.
 
@@ -819,7 +819,7 @@ A wooden message cylinder survives on the island. It contains:
 - A warning that water activates a dormant creature or nodule.
 - A letter from Chief Krand of the Bloodreavers offering to buy humanoid captives for duergar allies in Thunderspire.
 
-This is a major sequel hook toward Thunderspire Labyrinth or any Sinew & Steel equivalent involving slavers, duergar, and subterranean trade.
+This is a major sequel hook toward Thunderspire Labyrinth or any Hazardry equivalent involving slavers, duergar, and subterranean trade.
 
 ## Interlude III: The Dead Walk
 
@@ -1111,7 +1111,7 @@ To do this in a custom system, frame it as a parallel ritual challenge while the
 
 If the reversal succeeds, black fire consumes the ritual book and the rift collapses or seals. If it fails, the rift remains partially open until Kalarel is defeated or the heroes find another way.
 
-This option is especially useful for Sinew & Steel because it lets the finale become a contest of meaning and ritual agency, not only a fight.
+This option is especially useful for Hazardry because it lets the finale become a contest of meaning and ritual agency, not only a fight.
 
 ## Conclusion
 
@@ -1153,7 +1153,7 @@ Douven proves the burial site was real and that Kalarel's agents are collecting 
 
 ### The Nerathi Mirror
 
-Agrid recovered an ancient mirror belonging to a Nerathi wizard who helped seal the rift. It is a ritual-context clue and a possible S&S relic.
+Agrid recovered an ancient mirror belonging to a Nerathi wizard who helped seal the rift. It is a ritual-context clue and a possible Hazardry relic.
 
 ### Valthrun's Revelation
 
@@ -1273,7 +1273,7 @@ Hobgoblin commander of the lower-level borough. Dreams of command, conquest, and
 
 Leader of the Bloodreavers, a hobgoblin slaver group. His letter offers Kalarel payment for captives bound for duergar allies in Thunderspire.
 
-## Sinew & Steel Conversion Notes
+## Hazardry Conversion Notes
 
 - Treat locations as pressure nodes rather than balanced encounters.
 - Preserve clue dependencies but allow multiple paths to the same truth.

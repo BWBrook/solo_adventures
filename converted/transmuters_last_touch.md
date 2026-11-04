@@ -1,4 +1,4 @@
-# The Transmuter's Last Touch - Narrative-Only S&S Cut
+# The Transmuter's Last Touch - Narrative-Only Hazardry Cut
 
 This version keeps the adventure fiction, old-school dungeon structure, room
 keys, named characters, magical premise, clue logic, traps, factions, and map
@@ -6,7 +6,7 @@ connectivity. It removes the original game's encounter levels, class levels,
 stat blocks, DCs, XP, treasure pricing, tactical assumptions, and system-
 specific spell and monster mechanics.
 
-Use this as a Candlelight Dungeons adventure for Sinew & Steel. The module is a
+Use this as a Candlelight Dungeons adventure for Hazardry. The module is a
 compact dungeon crawl: a kobold war-band has occupied a mountain catacomb whose
 old transmutation magic still changes bodies. The danger is not just the
 kobolds, but the fact that the dungeon itself remembers a wizard's experiments.
@@ -107,7 +107,7 @@ The flux zones are not a new rules subsystem. Treat them as visible, strange
 hazards and opportunities. Kobolds know where many zones are and use them
 cunningly. Delvers can learn, exploit, fear, or avoid them.
 
-In S&S terms:
+In Hazardry terms:
 
 - A flux zone triggers when entered unless the delver has learned how to avoid
   or time it.
@@ -122,90 +122,90 @@ In S&S terms:
 
 ## Flux Zones A-L
 
-Use these as narrative effects and S&S levers, not imported templates.
+Use these as narrative effects and Hazardry levers, not imported templates.
 
 ### A. Noisome
 
 The body sweats a greenish vapor. Anyone close enough to breathe it may stagger,
 retch, lose nerve, or suffer Disadvantage until they get clear.
 
-S&S use: proximity hazard, Fatigue cost, or a momentary opening in melee.
+Hazardry use: proximity hazard, Fatigue cost, or a momentary opening in melee.
 
 ### B. Fire-Infused
 
 The eyes glow like coals and fire dances in the throat.
 
-S&S use: short cone of flame, igniting oil or dry goods, forcing a DEX defense,
+Hazardry use: short cone of flame, igniting oil or dry goods, forcing a DEX defense,
 or making a kobold dangerous at close range.
 
 ### C. Quickened
 
 Every twitch, blink, and step becomes supernaturally fast.
 
-S&S use: Advantage on speed, dodge, pursuit, or a fast strike. On a bad flux
+Hazardry use: Advantage on speed, dodge, pursuit, or a fast strike. On a bad flux
 twist, the subject overcommits or burns Fatigue.
 
 ### D. Earth-Infused
 
 The eyes darken and the voice grinds like dry soil.
 
-S&S use: temporary soak, resistance to being moved, or a spray of grit and stone
+Hazardry use: temporary soak, resistance to being moved, or a spray of grit and stone
 shards.
 
 ### E. Clouded
 
 A gray mist clings to the subject and moves with it.
 
-S&S use: concealment, ambush cover, escape, or Disadvantage for attacks through
+Hazardry use: concealment, ambush cover, escape, or Disadvantage for attacks through
 the vapor.
 
 ### F. Enlarged
 
 The body trembles and swells to human height. Gear grows with it.
 
-S&S use: STR Advantage, reach, intimidating presence, but clumsy movement in
+Hazardry use: STR Advantage, reach, intimidating presence, but clumsy movement in
 tight passages.
 
 ### G. Forceful
 
 Air ripples at the fingertips.
 
-S&S use: invisible shove, thrown enemy, blasted door, or sudden forced movement
+Hazardry use: invisible shove, thrown enemy, blasted door, or sudden forced movement
 into a hazard.
 
 ### H. Mucilaginous
 
 Purple slime coats the body and an alchemical stink taints the air.
 
-S&S use: slippery grappling, acid touch, squeezing through gaps, or a disgusting
+Hazardry use: slippery grappling, acid touch, squeezing through gaps, or a disgusting
 counter to restraint.
 
 ### I. Evanescent
 
 The subject flickers out of sight and back again.
 
-S&S use: partial invisibility, a vanishing feint, or uncertainty about target
+Hazardry use: partial invisibility, a vanishing feint, or uncertainty about target
 position.
 
 ### J. Venomous
 
 One finger or appendage curls into a thorn, wet with green poison.
 
-S&S use: a poisoned barb. On serious failure, the victim collapses, sleeps,
+Hazardry use: a poisoned barb. On serious failure, the victim collapses, sleeps,
 marks Fatigue, or loses a scene to fever.
 
 ### K. Solidified
 
 The body stiffens into dark stone for a beat, then moves again.
 
-S&S use: momentary invulnerability, blocking a passage, surviving a blow, or
+Hazardry use: momentary invulnerability, blocking a passage, surviving a blow, or
 being trapped helplessly in the wrong position.
 
 ### L. Vitreous
 
 The body becomes mirrored and glass-hard.
 
-S&S use: dazzling reflections, brittle protection, or a dangerous shattering
+Hazardry use: dazzling reflections, brittle protection, or a dangerous shattering
 death if struck down while transformed.
 
 ## Dungeon Features
@@ -290,7 +290,7 @@ The old priests of Soleth purified the dead by administering a draught. To open
 the true door, entrants must pour water, a potion, or another liquid into the
 carved skeleton's mouth. The eastern wall opens.
 
-S&S guidance:
+Hazardry guidance:
 
 - Careful inspection finds the false door and the true seam.
 - Religious or funerary knowledge explains the rite.
@@ -345,7 +345,7 @@ falling slides into the hooks.
 The priests of Soleth may have honored peaceful death, but they hated those who
 would deny the dead their rest.
 
-S&S guidance:
+Hazardry guidance:
 
 - Telegraph with odd seams, scrape marks, old blood, missing dust, or the angle
   of the steps.
@@ -486,7 +486,7 @@ opens a secret door in the north wall. The door can be opened easily from the
 far side, but from here the puzzle is the clean route. The mechanism resets
 after a short time.
 
-S&S guidance:
+Hazardry guidance:
 
 - Do not turn this into a riddle wall. Let observation solve it.
 - If the delver experiments logically, let it work.
@@ -527,7 +527,7 @@ The warriors defend their weaker kin. The females and young attack only if
 provoked. If spared once Tazex's power is broken, they flee the catacomb and
 abandon him.
 
-S&S guidance:
+Hazardry guidance:
 
 - This is not simply a fight room. It is the moral center of the kobold faction.
 - A delver can massacre, bargain, frighten, split the faction, or let families
@@ -691,7 +691,7 @@ does not carry.
 The purple dais explains Tazex's permanent transformation and why he cannot use
 ordinary flux zones.
 
-## Sinew & Steel Conversion Notes
+## Hazardry Conversion Notes
 
 - Run this as a **medium Candlelight Delvekit** dungeon by default. Use hard
   mode if you want the old-school bite to be sharp; use soft mode if the focus

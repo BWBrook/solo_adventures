@@ -1,4 +1,4 @@
-# Secrets of Sokol Keep - Narrative-Only S&S Cut
+# Secrets of Sokol Keep - Narrative-Only Hazardry Cut
 
 This version keeps the adventure fiction, investigation structure, named
 characters, clue chain, locations, haunted keep, island approach, temple rooms,
@@ -6,8 +6,8 @@ and scenario outcomes. It removes the original game's organized-play
 instructions, character-level assumptions, stat blocks, encounter adjustments,
 XP, reward math, tactical rules, maps-as-images, and system-specific checks.
 
-Use this module as a Candlelight Dungeons adventure seed for Sinew & Steel.
-Resolve uncertainty through S&S: intent and method first, then a roll only when
+Use this module as a Candlelight Dungeons adventure seed for Hazardry.
+Resolve uncertainty through Hazardry: intent and method first, then a roll only when
 the outcome matters. Treat locks, traps, social pressure, undead, animated
 armor, and the murderers below the keep as fiction-forward dangers rather than
 imported D&D mechanics.
@@ -166,7 +166,7 @@ Imizael would rather avoid smashed furniture and Black Fist attention.
 
 Run this as a social-pressure scene first. The characters can calm both sides,
 shame them, distract them, buy a round, appeal to dockside solidarity, or take a
-side. Use a single S&S roll only if the method is uncertain and the stakes are
+side. Use a single Hazardry roll only if the method is uncertain and the stakes are
 clear. Good leverage or clever roleplay can simply work.
 
 If the brawl begins:
@@ -263,7 +263,7 @@ approach quietly after hearing that the characters are asking questions. She is
 interested in forgotten or arcane knowledge at Sokol Keep. Recovering Igan's
 journal or the beaten brass plates from the Jade Temple satisfies this thread.
 
-For S&S, this is best treated as an optional patron, information source, or
+For Hazardry, this is best treated as an optional patron, information source, or
 future-favor hook, not a renown subsystem.
 
 ## Act II: Thorn Island and Sokol Keep
@@ -458,7 +458,7 @@ Important finds:
 - **Paintings and tapestries:** Idealized scenes of followers of Tyr triumphing
   through sacrifice and justice.
 
-S&S guidance: A slow, careful search should find the major clue objects without
+Hazardry guidance: A slow, careful search should find the major clue objects without
 multiple rolls. Use rolls only for risky entry, rushed searching, interpreting
 old languages under pressure, or noticing what matters before Harae intervenes.
 
@@ -538,7 +538,7 @@ Toe Megalo** is spoken aloud. It vanishes into nothing, revealing a dark shaft
 with musty, wet air rising from below.
 
 Wrong phrases or careless tampering trigger a lightning-like backlash from the
-slab. In S&S, use this as a visible magical trap: show glyph-sparks, old burn
+slab. In Hazardry, use this as a visible magical trap: show glyph-sparks, old burn
 marks, hair rising, or Harae's warning signs before serious harm. Failure can
 cost Stamina, Fatigue, lost grip, temporary helplessness, or a forced retreat.
 
@@ -648,7 +648,7 @@ coral and shells, crusted over with growth. When enough intruders reach the
 middle of the room, the armor tears free of the barnacles and advances, empty
 nautiloid helms staring.
 
-S&S guidance:
+Hazardry guidance:
 
 - Treat these as ancient guardian shells rather than imported stat blocks.
 - Telegraph the threat with cracking barnacles, falling flakes, and hollow
@@ -968,12 +968,12 @@ Angry workers hurt by the dark beacon and looking for someone to blame.
 Optional Harper contact interested in forgotten knowledge and the brass plates
 from the temple.
 
-## Sinew & Steel Conversion Notes
+## Hazardry Conversion Notes
 
 - Use Candlelight Dungeons with Delvekit in **medium** mode for the Jade Temple
   if you want a proper dangerous delve. Use **soft** if this is a mystery-first
   episode with a less lethal dungeon.
-- Treat the tavern brawl as nonlethal social chaos. In S&S terms, success might
+- Treat the tavern brawl as nonlethal social chaos. In Hazardry terms, success might
   prevent the fight, win information, avoid Black Fist notice, or keep allies.
   Failure should cost position, reputation, Fatigue, bruises, or trust before
   it becomes lethal.

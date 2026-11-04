@@ -862,7 +862,7 @@ Whether Traevus is telling the truth is a powerful next hook:
 
 The adventure ends with the immediate threat broken, but the skull remains. It is an object with history, enemies, and a future.
 
-## Sinew & Steel Conversion Notes
+## Hazardry Conversion Notes
 
 - Run the solo numbered section as **soft Candlelight** if the delver is alone
   and inexperienced. Run the Twisting Halls as **medium Delvekit** once allies,
