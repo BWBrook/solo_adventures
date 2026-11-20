@@ -1,8 +1,10 @@
 # 4e Solo Adventure - Narrative-Only Cut
 
-This version keeps the adventure fiction, branching structure, clues, locations, and scenario ideas. It removes the original game's statistics, character sheets, monster mechanics, power cards, tactical rules, and image references.
+This version adapts the adventure fiction, choices, clues, locations, and scenario ideas. It removes the original game's statistics, character sheets, monster mechanics, power cards, tactical rules, and image references.
 
-Use the branches as prompts rather than rules. When an entry asks whether something succeeds, resolve it with your own system, decide based on the fiction, or choose the outcome that best fits the story you want.
+Use the numbered branches as Custodian navigation, allowing freeform action. Resolve uncertainty with Hazardry and the declared stakes; do not select an outcome merely to force the story along. Narration of a wound or victory describes the resolved outcome, not additional automatic damage or success. Return links preserve spent resources, injuries, elapsed time and NPC knowledge. At 0 Stamina use the agreed Hazardry tone's rules before any recovery passage; the rescue in entry 96 cannot override a fatal result.
+
+Source audit: 2026-09-19, numbered solo section only. Original entry numbers remain stable, but 51, 54-59 and 84-92 are deliberately omitted character-creation tutorials. The [coverage ledger](../docs/red-box-source-ledger.md) records their replacements, source pages and deliberate adaptations. The later Road Back and Twisting Halls sections have not received this source audit. General play procedure remains in the [Hazardry coda](../how_to_play_with_hazardry.md).
 
 ## Solo Adventure: Goblin Attack
 
@@ -23,15 +25,13 @@ He slumps sideways, blood spreading across his tunic. Harsh voices chatter from 
 
 You pull a weapon free and drop from the wagon. The nearest goblin is already clawing at the wagon bed, hunting for plunder. It whirls toward you with a ragged blade and a mouth full of needle teeth.
 
-If you strike first and press hard, go to 7. If you hesitate or the goblin slips around you, go to 9.
+Go to 7 to resolve your opening attack.
 
 ### 3
 
 You draw on whatever power answers you: a whispered spell, a flash of will, an old charm, or a sudden force that gathers in your hand. The goblins pause for half a breath. They did not expect this.
 
-- Turn your power on the clustered goblins near the wagon: go to 15.
-- Strike at the archer on the hill: go to 16.
-- Create a distraction or illusion to scatter them: go to 18.
+Go to 14 to choose your target and method.
 
 ### 4
 
@@ -55,37 +55,37 @@ Return to 1 and choose a more active response, or accept capture and begin from 
 
 You meet the goblin head-on. Your first blow drives it away from the wagon and forces it to fight you instead of stealing from Traevus.
 
-If you bring it down quickly, go to 8. If it survives long enough to shriek for help, go to 11.
+If your attack brings it down, go to 8. If it avoids your blow, go to 9. Other outcomes remain possible under the declared Hazardry stakes.
 
 ### 8
 
 The goblin collapses in the road. Another darts in, slashing wildly, and the archer on the hill draws again.
 
-If you avoid the worst of the counterattack, go to 12. If you are cut or grazed, go to 11.
+Go to 10 to resolve the counterattack.
 
 ### 9
 
 The goblin twists aside and comes in low. Its blade flickers toward your leg while another goblin tries to climb onto the wagon.
 
-If you recover and drive it back, go to 12. If the goblin's attack lands, go to 11.
+Go to 10 to resolve the counterattack.
 
 ### 10
 
-The wagon horses panic and rear against the traces. Traevus groans. The fight is sliding out of control.
+The goblin slashes at you beside the wagon. Traevus is still exposed behind you.
 
-Choose quickly: defend the wagon in the open by going to 13, or retreat behind it and look for another angle by going to 4.
+Resolve its attack or your chosen defence. If you take a wound and can continue, go to 11. If you avoid the blow, go to 12. If you fall, go to 44.
 
 ### 11
 
 Pain flashes through you, but the wound is not the end of the fight. The goblins laugh too soon.
 
-You set your feet and push back. Go to 13.
+You set your feet and push back. Go to 12.
 
 ### 12
 
-You slip out of reach and force the goblin to overextend. For one clear heartbeat, it is exposed.
+You have another chance to act. Press the goblin back, change your footing, or try a different plan.
 
-Go to 13.
+If your counterattack defeats it and breaks the others' nerve, go to 13. If it evades you and attacks again, go to 9. A different plan goes to 42. Do not repeat an already resolved attack just because a numbered link returns here.
 
 ### 13
 
@@ -99,7 +99,7 @@ Go to 45.
 
 The magic gathers unevenly, bright and dangerous. The goblins do not understand what they are seeing, which may be your best advantage.
 
-Choose whether to unleash it boldly at the group near the wagon by going to 15, or use it with precision against the archer by going to 16.
+Choose whether to unleash it boldly at the group near the wagon by going to 15, or direct it against the archer by going to 16. Use only effects your Hazardry character can actually attempt, with their normal costs.
 
 ### 15
 
@@ -111,19 +111,19 @@ The archer on the hill still has a clear shot. Go to 21.
 
 You focus on the archer. It is higher than you and half-hidden among the rocks, but its next arrow could finish Traevus or put you down.
 
-If your attack or working strikes true, go to 20. If it falters, misses, or merely startles the archer, go to 19.
+Try to frighten the archer with an illusion by going to 17, or strike it directly with a damaging working by going to 20. The original magic-missile option was automatic; this adaptation resolves a direct working under Hazardry rather than granting an automatic hit.
 
 ### 17
 
-The archer shifts position along the rocks, looking for a better line into the wagon. If you keep its attention on yourself, Traevus has a chance.
+You conjure the appearance of a threatening creature near the archer, trying to make it recoil from an attack that is not physically there.
 
-Go to 21.
+If the deception takes hold, go to 18. If it sees through the illusion, go to 19.
 
 ### 18
 
-You throw a false sound, a flash of impossible light, a conjured fear, or some other trick into the fight. The goblins hesitate, convinced for a moment that the ambush has turned against them.
+The archer recoils from the apparent threat. You have hurt or frightened it, but it remains in the fight and turns its bow on you.
 
-If the trick sends them stumbling back, go to 24. If it only buys a moment, go to 21.
+Go to 21.
 
 ### 19
 
@@ -133,27 +133,25 @@ Go to 21.
 
 ### 20
 
-Your strike slams into the archer. It drops from view behind the rocks, and the goblins below cry out in alarm.
-
-Go to 24.
+Resolve your direct working against the archer. A successful strike hurts it and draws its attention; if it can still fight, it raises its bow at you. If the working fails, it still has a clear shot. If Hazardry resolution actually removes it from the fight, go to 24; otherwise, go to 21.
 
 ### 21
 
-An arrow cuts through the air from the hillside.
+On a second visit after your next working, the display has broken the goblins' nerve: go to 24. On the first visit, an arrow cuts through the air from the hillside.
 
-If it strikes you or forces you into cover, go to 22. If it misses or buries itself harmlessly in the wagon, go to 23.
+If it wounds you and you can continue, go to 22. If you avoid it or it only forces you into cover, go to 23. If you fall, go to 44.
 
 ### 22
 
 The arrow bites, but the wound is not deep enough to stop you. The goblins have seen that your power can hurt them, and fear begins to outrun their greed.
 
-Go to 24.
+Go to 23.
 
 ### 23
 
-The arrow misses. The archer has lost the rhythm of the ambush, and the goblins at the wagon are looking over their shoulders for a way out.
+Whether wounded or unhurt, you have a moment to act again. The goblins at the wagon hesitate, but the archer is still a threat.
 
-Go to 24.
+Go to 14 and choose your next working. Record that the archer has already fired: the next return to 21 leads to 24, not another automatic exchange of arrows. If you lack the means for another working, a different plan goes to 42.
 
 ### 24
 
@@ -185,7 +183,7 @@ Go to 28.
 
 The goblin's blade flashes in the cramped space beside the wagon.
 
-If you are wounded, go to 29. If you slip away cleanly, go to 30.
+If you are wounded and can continue, go to 29. If you slip away cleanly, go to 30. If you fall, go to 44.
 
 ### 29
 
@@ -228,11 +226,11 @@ Go to 45.
 
 Traevus gasps as the worst of the wound closes or the bleeding slows. His eyes focus on you with startled gratitude.
 
-Then a goblin jumps onto the wagon and raises its blade. Go to 37.
+As you stand to defend him, the archer looses an arrow at you. If it wounds you and you can continue, go to 36. If you avoid it, go to 37. If you fall, go to 44.
 
 ### 36
 
-You take a hit while protecting Traevus, but he lives because you chose him first. That matters.
+The archer's arrow wounds you while you protect Traevus, but he lives because you chose him first. That matters.
 
 Go to 37.
 
@@ -283,7 +281,7 @@ Go to 45.
 
 The fight goes wrong. A blade, arrow, or unlucky fall drops you beside the wagon. The last thing you hear is goblin laughter and Traevus groaning your name.
 
-Go to 96.
+The source restarts the tutorial here. In this adaptation, retain the consequences: if the agreed Hazardry rules leave you alive but defeated, go to 96. If the result is death, end this character's adventure rather than using the rescue to undo it.
 
 ## Part 2: Tracking the Goblins
 
@@ -291,12 +289,13 @@ Go to 96.
 
 As the last goblins vanish, you glimpse a rider on a distant hill: a human figure in a red cloak on a black horse. The rider watches the failed ambush, shakes a fist in anger, and gallops southwest into the Moon Hills.
 
-Traevus searches the wagon with rising panic. A small locked wooden box is gone. He says the box is personal, important, and not meant for thieves. He offers a reward if you recover it and discover who sent the goblins.
+Traevus searches the wagon with rising panic. A small locked wooden box is gone. He says the box is personal, important, and not meant for thieves. He offers 30 gold pieces for its return and asks you not to open it. Record the reward as a promise in the fiction, not an automatic Hazardry wealth increase.
 
 - Volunteer to help at once: go to 46.
 - Ask Traevus what the job is worth: go to 47.
 - Promise to bring the attackers to justice: go to 48.
 - Refuse or try to leave the matter behind: go to 49.
+- Give a different answer or propose different terms: go to 50.
 
 ### 46
 
@@ -318,69 +317,27 @@ Go to 60.
 
 ### 49
 
-If you leave now, the mystery vanishes into the Moon Hills: the red-cloaked rider, the stolen box, and whatever made Traevus so afraid.
+Traevus looks disappointed and repeats his offer of 30 gold pieces for the locked box, hoping payment will persuade you.
 
-If you reconsider, go to 60. If you walk away, this thread ends here, unresolved.
+If you accept, go to 47. If you ask for more, go to 52. If you refuse, go to 53.
 
 ### 50
 
-You take a few minutes to search the road. The ambush site is a mess of hoofprints, wagon ruts, blood, and goblin tracks.
+Tell the Custodian what you want to say or do. Traevus responds from gratitude, fear for the box and his limited means. This replaces the source's instruction to abandon an unlisted idea and choose a printed response.
 
-Go to 60.
-
-### 51
-
-The choice is yours. Help for reward, for justice, out of curiosity, from loyalty to Traevus, or because the rider's anger makes the whole affair feel larger than a roadside theft.
-
-Go to 60.
+If you agree to pursue the box, go to 60 with the agreed terms recorded. If you refuse, go to 53. If you want the listed offers again, return to 45 without resetting the conversation.
 
 ### 52
 
 Traevus cannot offer much more than coin and gratitude. He is wounded, frightened, and trying not to say what the box contains.
 
-Accept the hook by going to 60, or leave the mystery by going to 49.
+Accept the existing offer by going to 47, or refuse by going to 53. The source calls this a "higher offer" despite saying he cannot pay more; no increase is granted here.
 
 ### 53
 
 Traevus watches you go with a look that may be disappointment, fear, or calculation. Behind you, the Moon Hills swallow the trail.
 
-This is an ending, but not a resolution.
-
-### 54
-
-Before you leave the wagon, Traevus gives you the clearest description he can: a red cloak, a black horse, a human rider, and a route southwest into rougher country.
-
-Go to 60.
-
-### 55
-
-The goblins were not merely raiding. They knew what they wanted. Someone sent them for the box.
-
-Go to 60.
-
-### 56
-
-You gather what supplies you can spare, steady the horses, and mark the direction of the fleeing goblins.
-
-Go to 60.
-
-### 57
-
-The Moon Hills rise ahead in stony folds. Ravines, scrub, and old cave mouths make the country easy to hide in and hard to search.
-
-Go to 60.
-
-### 58
-
-A wounded goblin groans among the roadside weeds. It is not dead yet.
-
-If you question it, go to 74. If you ignore it and follow the tracks, go to 60.
-
-### 59
-
-The road behind you leads to Fallcrest and safety. The hills ahead lead to answers.
-
-Go to 60.
+This is an ending, but not a resolution. This adaptation permits refusal; the source instead sends the player back to accept the reward. Do not pressure the player to undo a deliberate choice.
 
 ### 60
 
@@ -395,25 +352,25 @@ Choose your approach.
 
 You climb toward the hill where the rider appeared. The view opens over scrubland and broken ravines. The rider is gone, but the land may still remember him.
 
-If you find signs of the horse, go to 64. If the trail vanishes, go to 63.
+If you can read the terrain and identify the likely route, go to 62. If you cannot, go to 63.
 
 ### 62
 
-A faint trail cuts down into a valley between the rocks. It is narrow, half-hidden, and marked by recent passage.
+You identify a valley that a rider could follow into the hills. After several hours, the ground grows rockier and cave mouths appear along the slopes.
 
-Go to 66.
+Search for signs of where the horse went. If you find them before being noticed, go to 66. If you cannot locate them in time, go to 67.
 
 ### 63
 
-The rider has too much of a head start. Wind and stone erase the trail.
+The hills offer too many possible routes to choose from by looking across the landscape alone.
 
-Return to 60 and choose another approach.
+Look for hoofprints nearby by going to 64, or return to 60 and choose another approach.
 
 ### 64
 
 You search for hoofprints, broken stems, and disturbed stones.
 
-If you find a clean sign, go to 66. If the ground defeats you, go to 65.
+If you find a clean sign, go to 69 to follow it through the rough country. If the ground defeats you, go to 65.
 
 ### 65
 
@@ -425,7 +382,7 @@ Return to 60.
 
 You find the horse's trail. It bends toward a cluster of cave mouths hidden among the hills. Smaller goblin tracks cross and recross the same ground.
 
-If you approach carefully, go to 83. If you rush or make too much noise, go to 67.
+You have found the lair without alerting its guards. Record the quiet approach and go to 83.
 
 ### 67
 
@@ -453,7 +410,7 @@ Go to 83.
 
 ### 71
 
-You reach the caves tired, scratched, or too visible. The goblins may have heard you coming.
+You reach the caves drained by the rough approach. Apply the exertion cost declared before the attempt, such as Fatigue; the source spent a healing resource. The guards have heard you coming. Record the alerted approach.
 
 Go to 83.
 
@@ -493,119 +450,69 @@ On a strong success, go to 77. On a partial success, go to 78. If it is too frig
 
 The goblin spills the story in broken fragments. The raid was ordered by Kurrash, a bugbear who leads the local goblins. Kurrash serves a human wizard named Malareth. Malareth was the rider in the red cloak. He lives in an ancient buried temple hidden among the caves to the southwest.
 
-The goblins were told to steal Traevus's small box. The goblin does not know what is inside, only that Malareth wanted it badly.
+The goblins were told to steal Traevus's small box. The goblin does not know what is inside, only that Malareth wanted it badly. Its wounds remain serious: the player can attempt further care or leave it to die. Record that choice and whether it survives. Following its directions brings you to the lair without alerting the guards.
 
 Go to 83.
 
 ### 78
 
-You get the heart of the matter: a human wizard named Malareth sent the goblins, and he keeps a lair in old temple ruins hidden inside the caves. The red-cloaked rider was almost certainly him.
+You get the heart of the matter: a human wizard named Malareth sent the goblins, and he keeps a lair in old temple ruins hidden inside the caves. The goblin identifies him as the red-cloaked rider. These are its last words in the source outcome. Its directions bring you to the lair without alerting the guards.
 
 Go to 83.
 
 ### 79
 
-The goblin gives directions more than answers: caves to the southwest, goblin guards, Kurrash the bugbear, and a human master inside.
+With its last breath, the goblin gives directions to the lair. It does not identify Kurrash, Malareth or the rider. Following those directions brings you to the caves without alerting the guards.
 
 Go to 83.
 
 ### 80
 
-The goblin dies or shuts down before you can learn anything useful. The road is quiet again, and the hills wait.
+The goblin is too frightened and badly injured to answer your reassurance, but it is still alive for now.
 
-Return to 60.
+If you change to threats, go to 81. If you try another way to find the lair, return to 60. Repeating the same appeal without changing the situation does not grant another free attempt.
 
 ### 81
 
 Fear can loosen a tongue, but it can also turn words into noise.
 
-If the goblin breaks and talks, go to 77. If it gives only directions, go to 79. If panic overwhelms it, go to 82.
+If the goblin gives the main information, go to 78. If it gives only directions, go to 79. If panic overwhelms it, go to 82. Threats do not grant the fuller confidence and potential surviving contact of 77.
 
 ### 82
 
 The goblin thrashes, babbles, and nearly chokes on its own terror. It may know more, but not in any form you can use.
 
-Choose mercy and return to 60, or leave it to the hills and follow the most likely trail to 83.
+Change your approach and try to calm it by going to 76, or return to 60 and pursue another lead. There is no route directly to the caves without obtaining directions or following a trail. Record what changed before resolving another appeal; the return is not a reset.
 
 ### 83
 
-You find the goblin lair: cave mouths cut into the hillside, smoke from low fires, rough voices, and the stink of animals and old blood. Somewhere inside are Kurrash, Malareth, and Traevus's stolen box.
+You find the goblin lair: cave mouths cut into the hillside, smoke from low fires, rough voices, and the stink of animals and old blood. Keep unrevealed names and the box's location in Custodian notes; this arrival does not itself reveal them to the player.
 
 If you arrived quietly, the guards are distracted and scattered. If the lair is alert, goblins gather at the entrances with weapons ready.
 
-- Defeat or evade the outer guards, then withdraw to seek allies: go to 94.
-- Decide the lair is too much and retreat before the fight turns ugly: go to 95.
-- Fall in battle or get captured: go to 96.
-
-### 84
-
-Smoke drifts from a cave entrance and carries the smell of damp stone, cooked meat, and goblin filth.
-
-Go to 83.
-
-### 85
-
-You see at least one deeper passage beyond the guards. The goblin lair is only the doorway to something older.
-
-Go to 83.
-
-### 86
-
-The red-cloaked rider's tracks pass the outer caves and vanish into the same darkness as the goblin trail.
-
-Go to 83.
-
-### 87
-
-A black horse may have stood near the caves recently: cropped grass, deep hoofprints, and a scuffed patch of stone mark the place.
-
-Go to 83.
-
-### 88
-
-If you listen long enough, you hear goblins arguing about Kurrash, the box, and whether their human master will be pleased.
-
-Go to 83.
-
-### 89
-
-The outer camp is poorly disciplined. That makes it vulnerable, but it also means any fight could become loud and chaotic.
-
-Go to 83.
-
-### 90
-
-The caves feel too old for goblins. Worked stone shows beyond the natural rock, as if the hill has swallowed a building.
-
-Go to 83.
-
-### 91
-
-You have enough clues to know the ambush was part of a larger design. The next step is not just revenge. It is descent.
-
-Go to 97.
-
-### 92
-
-If you bring companions back here, the cave mouths will be the beginning of a larger adventure.
-
-Go to 97.
+The source pauses here to finish the character sheet. Use your existing Hazardry character and go to 93. The omitted setup entries 84-92 are documented in the coverage ledger.
 
 ### 93
 
-The goblins at the entrance sit near a fire, passing stolen food and arguing. Behind them, the cave slopes down into old worked stone.
+Four goblin guards occupy the outer caves. After a quiet approach they are scattered near their fires; after an alerted approach they are ready at the entrances. Preserve that difference in what the player can attempt before opposition closes in.
 
-Go to 83.
+Run this as an Hazardry encounter, with scouting, bargaining, diversion and evasion as real alternatives to fighting. Make routes of retreat visible. In the source the guards do not pursue a fleeing hero beyond the caves.
+
+- Defeat the guards: go to 94.
+- Withdraw: go to 95.
+- Fall unconscious but survive under the agreed Hazardry rules: go to 96.
+
+If the player bypasses or bargains past the guards and chooses to continue inward, use the Twisting Halls section with current state intact. That is a Custodian-run extension beyond the source solo tutorial, whose printed outcomes all lead back to Fallcrest. Do not call evasion a victory over guards who remain active.
 
 ### 94
 
-You win a small victory at the cave mouth, but the deeper lair is too dangerous to clear alone. You have found the place. Now you need allies, a plan, and answers.
+You win a small victory at the cave mouth and find a small purse of coin among the guards' belongings. The deeper lair still lies ahead. The source ends this tutorial by returning to Fallcrest to seek allies; explain that transition and let the player choose whether to follow it or continue into the Custodian-run Twisting Halls. Do not narrate a compulsory retreat after a victory.
 
-Go to 97.
+If you return to Fallcrest, go to 97. If you continue inward, use the Twisting Halls section with current state intact.
 
 ### 95
 
-You withdraw to Fallcrest. The retreat stings, but it is not failure. You know where the trail leads, and the mystery has grown too large for one traveler.
+You withdraw to Fallcrest. The retreat stings, but it is not failure. If you reached the caves, you can return to that location; if you abandoned the search from 60, their location remains unknown. Preserve what you actually learned and decide what help to seek.
 
 Go to 97.
 
@@ -613,15 +520,15 @@ Go to 97.
 
 You wake in the Nentir Inn, sore and confused. Someone found you after the ambush or near the caves, paid for your room, and left instructions that you be cared for. The rescuer is gone.
 
-Traevus's box is still missing. The red-cloaked rider is still somewhere in the hills.
+Recap only what the character learned before defeat. If they already accepted Traevus's request or saw the rider, those threads remain unresolved. A character defeated during the ambush may know neither: establish any new request through a later conversation, not as a memory they never acquired.
 
 Go to 97.
 
 ### 97
 
-The solo adventure ends with the mystery open. A merchant's stolen box, a red-cloaked rider, a goblin band, a bugbear named Kurrash, and a necromancer named Malareth all point toward the buried temple in the Moon Hills.
+The solo adventure ends with unresolved events. Summarize only what the player actually discovered: the box, the red-cloaked rider, Kurrash, Malareth and the buried temple are not automatically known. A character defeated before Traevus's request may only know about the roadside ambush.
 
-The next chapter begins when you return to the caves.
+If the caves were found, the next chapter can begin with a return there. Otherwise, resume the unfinished search or establish a new lead in Fallcrest. Preserve the player's decision to seek allies, continue alone or leave this mystery behind.
 
 ## Mini-Adventure: The Road Back
 
