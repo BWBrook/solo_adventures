@@ -30,7 +30,7 @@ as the skin and treat the converted adventure as hidden scenario material:
 ```bash
 python tools/campaign_init.py --title "Winterhaven" --skin candlelight_dungeons --tone standard
 python tools/build_prompt.py --campaign winterhaven --mode agent \
-  --hidden /Users/bwbrook/games/solo_adventures/converted/Keep_on_the_Shadowfell_H1.md
+  --hidden ~/games/solo_adventures/converted/Keep_on_the_Shadowfell_H1.md
 ```
 
 Use the exact generated campaign slug if it differs. Keep the adventure text
@@ -40,7 +40,10 @@ behind the screen unless the player asks for a public handout.
 
 Keep these things from the converted adventure:
 
-- Numbered choose-your-own-adventure entries and named area labels.
+- Numbered choose-your-own-adventure entry identifiers and named area labels.
+  Source-only character-creation tutorials may be omitted with an explicit
+  coverage ledger and redirected navigation; do not fill their numbers with
+  invented scenes or silently renumber surviving entries.
 - The order of clues, revelations, and consequences.
 - Named NPCs, places, factions, grudges, secrets, promises, and fears.
 - Traps, obstacles, riddles, strange rooms, and environmental details.
@@ -318,7 +321,10 @@ When combat happens, keep it Hazardry:
 
 1. Say what each foe is trying to accomplish.
 2. Use opposed tests only where active resistance matters.
-3. Apply damage as `1 + edge - effective soak` when harm is the goal.
+3. Use the current Hazardry damage rule when harm is the goal. At revision
+   `a77d476`: `max(1, 1 + edge + floor(attacker margin / 5) - soak)`;
+   natural 1 ignores soak and adds +1 damage. Do not use the superseded
+   rule that eroded soak for each four points of margin.
 4. Let non-harm goals use the same roll structure: disarm, drive off, pin,
    frighten, distract, open a route, seize a relic, or force surrender.
 5. Let morale and motive end fights early.

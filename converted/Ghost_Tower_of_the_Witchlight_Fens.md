@@ -112,11 +112,13 @@ You bid Sareth farewell and turn back toward your camp. Before you take five ste
 
 ## Part 2: The Ghost Tower
 
-### Map as Node-Edge Graph: Witchlight Fens Approach
+### Route Overview: Witchlight Fens Approach
 
 This graph abstracts the road, woodland, fens, and tower exterior into the
 practical route an AI GM needs. It keeps the two ways of inheriting the quest:
-Sareth alive, or Sareth dead with her map.
+Sareth alive, or Sareth dead with her map. It is a Custodian-only overview,
+not an exhaustive entry graph or a player map; numbered entries govern
+conditions, refusal, retreat, and consequences.
 
 ```mermaid
 graph LR
@@ -254,11 +256,13 @@ Go to 27.
 
 ## Part 3: Inside the Ghost Tower
 
-### Map as Node-Edge Graph: Ghost Tower Interior
+### Route Overview: Ghost Tower Interior
 
 The tower is a three-route trial leading from a central antechamber to Parald's
 hall. Each route tests a different kind of nerve: careful trap work, dangerous
-movement, or patience with magical distortion.
+movement, or patience with magical distortion. This Custodian-only overview
+compresses intermediate entries and does not represent every legal move.
+Use the numbered entries and recorded position when resolving a return trip.
 
 ```mermaid
 graph LR
@@ -635,9 +639,9 @@ Go to 71.
 
 ### 76
 
-Your attempt fails without catastrophe. The glyph, illusion, or magical residue refuses to yield, but it does not strike back.
+Your attempt fails without catastrophe. The glyph's meaning remains unclear, or your attempt to disable it has failed, but it does not strike back.
 
-- Try to tamper with the glyph again: go to 88.
+- If you have found the glyph, try to tamper with it: go to 88.
 - Step away and reconsider the staircase: go to 71.
 
 ### 77
@@ -672,7 +676,7 @@ The glyph may be the key to escaping the endless stair.
 
 ### 81
 
-You are certain now that you have made no progress. The staircase is looping, lying, or folding space around you.
+You are certain now that you have made no progress. The staircase is looping, lying, or folding space around you. This knowledge helps you search for the concealed way onward.
 
 Go to 71, but you now know to distrust appearances here.
 
@@ -694,7 +698,7 @@ If you survive the psychic shock and forced displacement, go to 90. If it overwh
 
 Energy pulses from the glyph and grounds itself through your hand. Pain flashes white.
 
-If you survive, you can try practical sabotage again by going to 88, or withdraw to 71. If you fall, go to 92.
+If you survive, go to 88 to try practical sabotage again, or return to 71. If you fall, go to 92.
 
 ### 85
 
@@ -704,7 +708,7 @@ If you realize the stairs are repeating, go to 81. If you remain uncertain, go t
 
 ### 86
 
-An illusion is confusing your senses and masking the staircase's true shape. Knowing this helps, but it does not by itself open the way.
+An illusion is confusing your senses and masking the staircase's true shape. Knowing this helps you search for the hidden panel, but it does not by itself open the way.
 
 Go to 71.
 
@@ -741,7 +745,7 @@ The adventure ends unresolved. The Ghost Tower remains in the fens, Sareth's que
 
 ### 92
 
-Darkness closes over you. In the original frame, this is death. In your own campaign, it could also be capture, a fever-dream, a rescued-but-broken retreat, or a hard reset with scars.
+Darkness closes over you. In the original frame, this is death. In Hazardry, apply the difficulty and zero-Stamina rule agreed before play. Where survival is allowed and plausible, capture, a fever-dream, or a rescued-but-broken retreat can carry the hard cost. Record that survival; it is not a reset.
 
 The Ghost Tower has claimed another would-be intruder.
 
@@ -759,7 +763,9 @@ Hollow laughter fills the chamber. A fearsome figure in black plate armor stands
 
 "Your presence in my tomb has awakened me from the grave. I can see that you have come for the sword. If you would have it, try to take it."
 
-Half-starved tomb rats skitter from the shadows, drawn by living flesh. Rotting curtains hang across old doorways. Two altars and two basins hint that the chamber once served a sacred or ceremonial purpose before becoming Parald's tomb.
+Half-starved tomb rats skitter from the shadows, drawn by living flesh. Rotting curtains hang across old doorways. An altar stands to the north and another to the west; two basins and a magic circle mark the chamber's surviving ceremonial features.
+
+Custodian: the source makes these features usable. The northern altar strengthens sacred or radiant attacks made beside it; the western altar strengthens attacks made with fire beside it. The basins support a creature's recovery, and the circle protects someone standing within it from unnatural foes. Translate these into a relevant Advantage, recovery benefit, or protective position when the fiction warrants it, and reveal a concrete sign of the effect before expecting the player to exploit it. These are Hazardry rulings for source affordances, not imported numerical bonuses. The basins are not automatically a supply of holy water, and the circle is protection rather than absolute sanctuary.
 
 Resolve the final confrontation in your system. Parald is an undead blackguard: proud, violent, and bound to the sword he stole. When seriously threatened, the fire on his blade bursts over his armor and bones, making him even more dangerous and more desperate.
 
@@ -777,9 +783,11 @@ The tower leaves one more hook behind. The strange stair and hidden door suggest
 
 ## Hazardry Conversion Notes
 
-- Run this as a **soft Candlelight** side trek if it is a lonely bridge between
-  larger adventures. Run the tower interior as **medium Delvekit** if the
-  player enjoys serious old-school risk.
+- Choose one Delvekit difficulty for the whole delve before play: **soft**
+  for a forgiving side trek, **medium** for serious old-school risk, or
+  **hard** by explicit table choice. The harness's `--tone` sets character
+  build points, not difficulty. Suggested pairs are soft/heroic,
+  medium/standard, and hard/grim. Record both separately.
 - Use Sareth as a living stake, not a sidekick stat block. If dice matter, she
   is **Elite 12** with Stamina 5, edge +1 blades, soak 1, and a strong FTH-like
   resolve when her mother's sword is involved. Her fear is failing the dead.
@@ -797,19 +805,49 @@ The tower leaves one more hook behind. The strange stair and hidden door suggest
     Fatigue for poison vapor, fear, or slow crawling.
   - West/looping stair: LOR for the glyph, FTH for keeping nerve, Fatigue for
     repeated attempts or magical backlash.
-- Treat entries 91 and 92 as tone switches. In soft mode, 92 can mean collapse,
-  capture, fever-dream, or forced retreat with a scar. In medium mode, the
-  first hit to 0 Stamina can survive with a hard cost. In hard mode, 92 is
-  death unless the fiction clearly prevents the blow.
+- Entry 91 is withdrawal; entry 92 applies the agreed zero-Stamina ladder.
+  Soft allows the first two survivals with a hard cost if fiction permits;
+  medium allows one; the next collapse is death. Hard means death unless an
+  ally's immediate action prevents the blow before it lands. Count survivals
+  across this delve and do not change difficulty after seeing an outcome.
 - Parald is a **Nemesis 16 undead boss**: Stamina about 11, edge +2 flaming
   longsword, soak 3 black plate. His hook is oath-bound fury: he grows more
   dangerous when mocked, robbed, or forced away from the stolen sword.
-- Parald should be immune to casual **Fatal** backstab effects until the player
-  creates a real countermeasure: holy water in the basins, Sareth invoking her
-  mother, breaking the tomb rite, or separating him from the sword's flame.
+- If Parald has a special defense against **Fatal**, establish and telegraph
+  its counter before resolution; this is an adaptation ruling, not a source
+  fact. The source supports sacred force at the northern altar. Sareth's
+  invocation, a broken tomb rite, or severing the sword's flame can be other
+  fictional solutions only if the Custodian establishes them in play. Do not
+  invent an immunity only after a player's successful action.
 - The tomb rats are not a second encounter. Use them as position pressure,
   distraction, or a Fatigue trigger if the player lets the fight sprawl.
 - Useful clocks: **Sareth's Wounds**, **Tower Malice**, and **Light**. Sareth's
   clock moves when she is ignored or exposed; tower malice moves on failed
   magical tampering and desecration; light moves with delay, crawling, and
   repeated returns to the antechamber.
+
+### Custodian Continuity Notes
+
+- Track Sareth's presence and condition independently of the player's. An
+  absent or dead ally cannot speak, reveal her private history, provide light,
+  or claim the sword. Entry 7's map still supports the inherited quest.
+- Record whether the exterior undead remain active, whether the door is
+  opened, and whether the key was taken. Quiet entry can bypass the undead;
+  defeated guardians do not respawn on a later failed attempt at the lock.
+- Record the dart mechanism's state and the party's actual pit position.
+  Entries 52 and 53 return to the appropriate stage of movement. Entries
+  54, 66, and 93 summarize a return journey; they do not teleport a character
+  out of the pit or erase a still-active hazard. Resolve only new, material
+  risk on the way back, and allow withdrawal through the tower entrance.
+- Record the glyph panel's discovery, understood illusions, and each altered
+  route. Entries 81 and 86 grant useful knowledge; reward a relevant search
+  with Advantage or a clear discovery rather than an unchanged blind retry.
+  Repeating an unchanged failed approach needs a new method or stated cost.
+- The source's entries 27/28 send east to 29 and west to 69, but the prose in
+  29 and 69 reverses those directions. This conversion follows the menus:
+  east statues, north pit, west stairs. The source also prints two entries
+  numbered 76; the single entry here accommodates both harmless failures
+  after glyph discovery. See the readiness report for provenance.
+- The continuation below the tower is an unresolved hook. This module does
+  not supply those deeper levels; a Custodian's invention there is new
+  material, not a recovered part of this conversion.
